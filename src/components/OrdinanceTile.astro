@@ -1,0 +1,76 @@
+---
+import Tile from './Tile.astro';
+
+const { items = [] } = Astro.props;
+
+const pillClass = (s) => {
+  const k = (s || '').toLowerCase();
+  if (k === 'passed' || k === 'adopted')   return 'ok';
+  if (k === 'pending' || k === 'tabled')   return 'warn';
+  if (k === 'defeated' || k === 'rejected') return 'danger';
+  return 'info';
+};
+---
+<Tile label="ordinance_tracker">
+  {items.length === 0 ? (
+    <p class="empty mono">// no tracked ordinances yet — populates as the city posts agenda actions</p>
+  ) : (
+    <ul class="list">
+      {items.slice(0, 3).map(item => (
+        <li>
+          <div class="row">
+            <span class={`pill ${pillClass(item.status)}`}>{(item.status || '').toLowerCase()}</span>
+            <span class="bracket">{item.number}</span>
+          </div>
+          <div class="title">{item.title}</div>
+          <p class="summary">{item.summary}</p>
+        </li>
+      ))}
+    </ul>
+  )}
+  <a class="see-all mono" href="/ordinances">→ all ordinances</a>
+</Tile>
+
+<style>
+  ul.list {
+    list-style: none;
+    margin: 0 0 0.7rem;
+    padding: 0;
+  }
+  ul.list li {
+    padding: 0.55rem 0;
+    border-bottom: 1px solid var(--border);
+  }
+  ul.list li:last-child { border-bottom: none; }
+  .row {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.3rem;
+  }
+  .title {
+    font-size: 0.93rem;
+    font-weight: 500;
+    color: var(--fg);
+    margin-bottom: 0.18rem;
+    line-height: 1.4;
+  }
+  .summary {
+    margin: 0;
+    font-size: 0.85rem;
+    color: var(--fg-muted);
+    line-height: 1.5;
+  }
+  .see-all {
+    font-size: 0.82rem;
+    color: var(--accent);
+    align-self: flex-start;
+    margin-top: auto;
+  }
+  .see-all:hover { color: var(--accent-strong); }
+  .empty {
+    color: var(--fg-dim);
+    font-size: 0.85rem;
+    margin: 0 0 0.5rem;
+  }
+</style>

@@ -1,0 +1,82 @@
+---
+import Tile from './Tile.astro';
+
+const { meeting } = Astro.props;
+---
+<Tile label="next_meeting">
+  {meeting ? (
+    <>
+      <div class="title">{meeting.title}</div>
+      <div class="meta-row">
+        <span class="bracket cyan">{meeting.when}</span>
+      </div>
+      <div class="loc">{meeting.location}</div>
+      {meeting.agenda && meeting.agenda.length > 0 && (
+        <>
+          <div class="sub-label mono"><span class="hash">›</span> on the agenda</div>
+          <ul class="agenda">
+            {meeting.agenda.map(item => <li>{item}</li>)}
+          </ul>
+        </>
+      )}
+      {meeting.link && <a class="cta mono" href={meeting.link} rel="noopener" target="_blank">→ meeting details</a>}
+    </>
+  ) : (
+    <p class="empty mono">// no upcoming meetings on the calendar</p>
+  )}
+</Tile>
+
+<style>
+  .title {
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: var(--fg);
+    margin-bottom: 0.45rem;
+    line-height: 1.3;
+  }
+  .meta-row {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 0.2rem;
+  }
+  .loc {
+    font-size: 0.82rem;
+    color: var(--fg-dim);
+    margin-bottom: 0.85rem;
+    font-family: 'JetBrains Mono', ui-monospace, monospace;
+  }
+  .sub-label {
+    font-size: 0.7rem;
+    color: var(--fg-dim);
+    margin-bottom: 0.35rem;
+  }
+  .sub-label .hash { color: var(--accent); margin-right: 0.2rem; }
+  ul.agenda {
+    list-style: none;
+    margin: 0 0 0.85rem;
+    padding: 0;
+    font-size: 0.9rem;
+    color: var(--fg);
+    line-height: 1.55;
+  }
+  ul.agenda li {
+    padding: 0.18rem 0;
+  }
+  ul.agenda li::before {
+    content: '·';
+    color: var(--fg-dim);
+    margin-right: 0.5rem;
+  }
+  .cta {
+    font-size: 0.82rem;
+    color: var(--accent);
+    align-self: flex-start;
+    margin-top: auto;
+  }
+  .cta:hover { color: var(--accent-strong); }
+  .empty {
+    color: var(--fg-dim);
+    font-size: 0.85rem;
+    margin: 0;
+  }
+</style>

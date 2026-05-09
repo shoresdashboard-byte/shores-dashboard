@@ -1,70 +1,285 @@
 ---
-const { title = 'Shores Dashboard', description = 'Civic information for St. Clair Shores, Michigan' } = Astro.props;
-const buildDate = new Date().toLocaleString('en-US', { timeZone: 'America/Detroit', dateStyle: 'medium', timeStyle: 'short' });
+const {
+  title = 'Shores Dashboard',
+  description = 'Civic information for St. Clair Shores, Michigan'
+} = Astro.props;
+
+const buildDate = new Date().toLocaleString('en-US', {
+  timeZone: 'America/Detroit',
+  dateStyle: 'medium',
+  timeStyle: 'short'
+});
 ---
 <!doctype html>
-<html lang="en">
+<html lang="en" data-theme="dark">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content={description} />
+    <meta name="theme-color" content="#0a0a0a" />
     <title>{title}</title>
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Inter:wght@400;500;600&display=swap"
+    />
+
+    <script is:inline>
+      // Apply theme before paint to avoid flash. Honor stored preference,
+      // otherwise default to dark.
+      (function () {
+        try {
+          const stored = localStorage.getItem('sd-theme');
+          const theme = stored === 'light' ? 'light' : 'dark';
+          document.documentElement.setAttribute('data-theme', theme);
+        } catch (e) {}
+      })();
+    </script>
+
     <style is:global>
-      :root {
-        --bg: #fafaf7;
-        --fg: #1a1a1a;
-        --muted: #5a5a5a;
-        --accent: #1e4d6b;
-        --border: #e2e0d8;
-        --card: #ffffff;
+      :root[data-theme='dark'] {
+        --bg:        #0a0a0a;
+        --surface:   #111114;
+        --surface-2: #18181c;
+        --border:    #232328;
+        --border-2:  #34343c;
+        --fg:        #e6e6e0;
+        --fg-muted:  #9c9c95;
+        --fg-dim:    #65655f;
+
+        /* Cyan is the primary informational accent. */
+        --accent:        #5ec8d6;
+        --accent-strong: #7adde9;
+        --accent-fg:     #06181c;
+
+        /* Status semantics — only these carry color elsewhere. */
+        --ok:        #7fc97f;
+        --ok-bg:     #16241a;
+        --warn:      #e6c46a;
+        --warn-bg:   #2a2418;
+        --danger:    #e08a8a;
+        --danger-bg: #2a1818;
+        --info:      #88b8e0;
+        --info-bg:   #182230;
+        --magenta:   #d486c8;
+        --magenta-bg: #281c26;
       }
+
+      :root[data-theme='light'] {
+        --bg:        #f4f2ec;
+        --surface:   #fbfaf5;
+        --surface-2: #ede9dd;
+        --border:    #d8d4c8;
+        --border-2:  #b8b4a8;
+        --fg:        #1a1a1a;
+        --fg-muted:  #555550;
+        --fg-dim:    #888880;
+
+        --accent:        #1f6873;
+        --accent-strong: #134952;
+        --accent-fg:     #ffffff;
+
+        --ok:        #2f6a36;
+        --ok-bg:     #d8e8d8;
+        --warn:      #7a5a14;
+        --warn-bg:   #f0e4c8;
+        --danger:    #7a2e2e;
+        --danger-bg: #efd8d8;
+        --info:      #2c5680;
+        --info-bg:   #d8e2ee;
+        --magenta:   #84376e;
+        --magenta-bg: #efd8e6;
+      }
+
       * { box-sizing: border-box; }
       html, body { margin: 0; padding: 0; }
       body {
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        font-family: 'Inter', ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
         background: var(--bg);
         color: var(--fg);
-        line-height: 1.5;
+        line-height: 1.55;
+        -webkit-font-smoothing: antialiased;
       }
-      a { color: var(--accent); }
+
+      .mono {
+        font-family: 'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace;
+        font-variant-ligatures: none;
+      }
+
+      a { color: var(--accent); text-decoration: none; }
+      a:hover { color: var(--accent-strong); text-decoration: underline; }
+
+      .bracket {
+        font-family: 'JetBrains Mono', ui-monospace, monospace;
+        font-size: 0.78rem;
+        font-weight: 500;
+        color: var(--fg-muted);
+        white-space: nowrap;
+      }
+      .bracket::before { content: '['; opacity: 0.55; }
+      .bracket::after  { content: ']'; opacity: 0.55; }
+      .bracket.cyan    { color: var(--accent); }
+      .bracket.ok      { color: var(--ok); }
+      .bracket.warn    { color: var(--warn); }
+      .bracket.danger  { color: var(--danger); }
+      .bracket.info    { color: var(--info); }
+      .bracket.magenta { color: var(--magenta); }
+
+      .pill {
+        font-family: 'JetBrains Mono', ui-monospace, monospace;
+        font-size: 0.7rem;
+        font-weight: 600;
+        text-transform: lowercase;
+        letter-spacing: 0.02em;
+        padding: 0.18rem 0.5rem;
+        border-radius: 3px;
+        display: inline-block;
+        line-height: 1.3;
+      }
+      .pill.cyan    { background: var(--accent); color: var(--accent-fg); }
+      .pill.ok      { background: var(--ok);      color: #0a1a0a; }
+      .pill.warn    { background: var(--warn);    color: #1a1408; }
+      .pill.danger  { background: var(--danger);  color: #1a0808; }
+      .pill.info    { background: var(--info);    color: #08121e; }
+      .pill.magenta { background: var(--magenta); color: #1e0a18; }
+
       header.site {
         border-bottom: 1px solid var(--border);
-        background: var(--card);
-        padding: 1.25rem 1.5rem;
+        background: var(--surface);
+        padding: 0.95rem 1.75rem;
       }
-      header.site h1 { margin: 0; font-size: 1.5rem; }
-      header.site .tagline { color: var(--muted); font-size: 0.9rem; margin-top: 0.25rem; }
-      main { max-width: 1100px; margin: 0 auto; padding: 1.5rem; }
+      header.site .row {
+        max-width: 1100px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1.5rem;
+      }
+      header.site .brand {
+        display: flex;
+        align-items: baseline;
+        gap: 0.65rem;
+      }
+      header.site .brand h1 {
+        margin: 0;
+        font-family: 'JetBrains Mono', ui-monospace, monospace;
+        font-size: 1.05rem;
+        font-weight: 600;
+        letter-spacing: -0.01em;
+        color: var(--fg);
+      }
+      header.site .brand h1 .prompt {
+        color: var(--accent);
+        margin-right: 0.3rem;
+      }
+      header.site .brand .tagline {
+        color: var(--fg-dim);
+        font-size: 0.78rem;
+        font-family: 'JetBrains Mono', ui-monospace, monospace;
+      }
+      header.site nav {
+        display: flex;
+        gap: 1rem;
+        font-size: 0.85rem;
+        font-family: 'JetBrains Mono', ui-monospace, monospace;
+      }
+      header.site nav a {
+        color: var(--fg-muted);
+      }
+      header.site nav a:hover {
+        color: var(--accent);
+        text-decoration: none;
+      }
+      header.site .theme-toggle {
+        background: transparent;
+        border: 1px solid var(--border);
+        color: var(--fg-muted);
+        border-radius: 3px;
+        padding: 0.32rem 0.55rem;
+        font-size: 0.72rem;
+        font-family: 'JetBrains Mono', ui-monospace, monospace;
+        cursor: pointer;
+      }
+      header.site .theme-toggle:hover {
+        border-color: var(--accent);
+        color: var(--accent);
+      }
+
+      main { max-width: 1100px; margin: 0 auto; padding: 1.5rem 1.5rem 2rem; }
+
       footer.site {
         border-top: 1px solid var(--border);
-        padding: 1.5rem;
+        padding: 1.4rem 1.5rem 1.75rem;
         text-align: center;
-        color: var(--muted);
-        font-size: 0.85rem;
+        color: var(--fg-muted);
+        font-size: 0.78rem;
+        font-family: 'JetBrains Mono', ui-monospace, monospace;
         margin-top: 3rem;
       }
-      footer.site .disclaimer { font-style: italic; margin-bottom: 0.75rem; }
-      footer.site a { color: var(--muted); }
+      footer.site .disclaimer { color: var(--fg-dim); margin-bottom: 0.55rem; }
+      footer.site .row { display: flex; gap: 0.65rem; justify-content: center; flex-wrap: wrap; }
+      footer.site a { color: var(--fg-muted); }
+      footer.site a:hover { color: var(--accent); }
+      footer.site .sep { color: var(--fg-dim); }
+
+      @media (max-width: 720px) {
+        header.site .row { flex-wrap: wrap; }
+        header.site nav { order: 3; width: 100%; gap: 0.75rem; flex-wrap: wrap; }
+      }
     </style>
   </head>
   <body>
     <header class="site">
-      <h1>Shores Dashboard</h1>
-      <div class="tagline">Civic information for St. Clair Shores, Michigan</div>
+      <div class="row">
+        <div class="brand">
+          <h1><span class="prompt">$</span>shores-dashboard</h1>
+          <span class="tagline">// st. clair shores, mi</span>
+        </div>
+        <nav>
+          <a href="/">~/home</a>
+          <a href="/city">~/council</a>
+          <a href="/news">~/news</a>
+          <a href="/about">~/about</a>
+        </nav>
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle color theme">[ light ]</button>
+      </div>
     </header>
     <main>
       <slot />
     </main>
     <footer class="site">
-      <div class="disclaimer">Independent civic project — not affiliated with the City of St. Clair Shores.</div>
-      <div>
-        <a href="https://www.buymeacoffee.com/shoresdashboard" rel="noopener">☕ Buy Me a Coffee</a>
-        &nbsp;·&nbsp;
-        <a href="https://github.com/" rel="noopener">Source on GitHub</a>
-        &nbsp;·&nbsp;
-        <span>Last updated: {buildDate} ET</span>
+      <div class="disclaimer">// independent civic project — not affiliated with the city of st. clair shores</div>
+      <div class="row">
+        <a href="https://www.buymeacoffee.com/shoresdashboard" rel="noopener">[ tip jar ]</a>
+        <span class="sep">·</span>
+        <a href="https://github.com/shoresdashboard-byte/shores-dashboard" rel="noopener">[ source ]</a>
+        <span class="sep">·</span>
+        <a href="mailto:admin@shoresdashboard.com">admin@shoresdashboard.com</a>
+        <span class="sep">·</span>
+        <span>last build: {buildDate} ET</span>
       </div>
     </footer>
+
+    <script is:inline>
+      (function () {
+        const btn = document.getElementById('theme-toggle');
+        if (!btn) return;
+        const sync = () => {
+          const t = document.documentElement.getAttribute('data-theme');
+          btn.textContent = t === 'dark' ? '[ light ]' : '[ dark ]';
+        };
+        sync();
+        btn.addEventListener('click', () => {
+          const t = document.documentElement.getAttribute('data-theme');
+          const next = t === 'dark' ? 'light' : 'dark';
+          document.documentElement.setAttribute('data-theme', next);
+          try { localStorage.setItem('sd-theme', next); } catch (e) {}
+          sync();
+        });
+      })();
+    </script>
   </body>
 </html>

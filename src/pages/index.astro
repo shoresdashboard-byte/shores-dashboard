@@ -1,11 +1,180 @@
 ---
 import Base from '../layouts/Base.astro';
+import RecapLead from '../components/RecapLead.astro';
+import NextMeetingTile from '../components/NextMeetingTile.astro';
+import NewsTile from '../components/NewsTile.astro';
+import OrdinanceTile from '../components/OrdinanceTile.astro';
+import MeetingVideosTile from '../components/MeetingVideosTile.astro';
+import { getCollection } from 'astro:content';
+import { existsSync, readFileSync } from 'node:fs';
+import { join } from 'node:path';
+
+// --- Load data ---------------------------------------------------------
+
+const recaps = await getCollection('recaps').catch(() => []);
+const latestRecap = recaps
+  .slice()
+  .sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime())[0];
+
+const recapForLead = latestRecap ? {
+  slug: latestRecap.slug,
+  date: latestRecap.data.date,
+  headline: latestRecap.data.headline,
+  dek: latestRecap.data.dek,
+  readTime: latestRecap.data.readTime,
+  placeholder: latestRecap.data.placeholder
+} : null;
+
+function loadJson(rel) {
+  const p = join(process.cwd(), 'src', 'data', rel);
+  return existsSync(p) ? JSON.parse(readFileSync(p, 'utf8')) : [];
+}
+
+const cityRaw = loadJson('city.json');
+const cgnews  = loadJson('cgnews.json');
+const patch   = loadJson('patch.json');
+const ordinances = loadJson('ordinances.json');
+
+// --- Derive: next meeting & video list from city calendar items --------
+// Items in city.json have snippets like "Event date: May 18, 2026 Event Time: 07:00 PM - 11:59 PM Location: ..."
+// We parse the human-readable date out of the snippet to find what's actually upcoming.
+
+function parseEventDate(snippet) {
+  if (!snippet) return null;
+  const m = snippet.match(/Event date:\s*([A-Za-z]+ \d{1,2},\s*\d{4}).*?Event Time:\s*([\d:]+\s*[AP]M)/i);
+  if (!m) return null;
+  const dt = new Date(`${m[1]} ${m[2]}`);
+  return isNaN(dt.getTime()) ? null : dt;
+}
+
+function parseLocation(snippet) {
+  const m = snippet?.match(/Location:\s*(.+?)(?:$|\.|,\s*MI)/i);
+  return m ? m[1].trim() : '';
+}
+
+const now = new Date();
+const cityDecorated = cityRaw.map(it => ({
+  ...it,
+  eventDate: parseEventDate(it.snippet),
+  location: parseLocation(it.snippet)
+})).filter(it => it.eventDate);
+
+const upcoming = cityDecorated
+  .filter(it => it.eventDate >= now && !/cancel/i.test(it.title))
+  .sort((a, b) => a.eventDate.getTime() - b.eventDate.getTime());
+
+const nextMeeting = upcoming[0] ? {
+  title: upcoming[0].title,
+  when: upcoming[0].eventDate.toLocaleDateString('en-US', {
+    timeZone: 'America/Detroit', weekday: 'short', month: 'short', day: 'numeric'
+  }) + ' · ' + upcoming[0].eventDate.toLocaleTimeString('en-US', {
+    timeZone: 'America/Detroit', hour: 'numeric', minute: '2-digit'
+  }),
+  location: upcoming[0].location || 'St. Clair Shores',
+  link: upcoming[0].link,
+  agenda: [] // agenda items will come from a future scraper pass
+} : null;
+
+// Past Council/Planning meetings as proxy for "videos" until a real video scraper exists.
+const pastMeetings = cityDecorated
+  .filter(it => it.eventDate < now)
+  .filter(it => /council|planning/i.test(it.title))
+  .sort((a, b) => b.eventDate.getTime() - a.eventDate.getTime())
+  .slice(0, 3)
+  .map(it => ({
+    title: it.title,
+    link: it.link,
+    isoDate: it.eventDate.toISOString(),
+    duration: null
+  }));
+
+// Merge & sort news by date.
+const newsItems = [...cgnews, ...patch]
+  .filter(it => it.isoDate)
+  .sort((a, b) => new Date(b.isoDate).getTime() - new Date(a.isoDate).getTime());
+
+const weekOf = (() => {
+  const d = new Date();
+  const day = d.getDay();
+  const monday = new Date(d);
+  monday.setDate(d.getDate() - ((day + 6) % 7));
+  return monday.toLocaleDateString('en-US', {
+    timeZone: 'America/Detroit', month: 'long', day: 'numeric'
+  });
+})();
 ---
-<Base title="Shores Dashboard — Under Construction">
-  <section style="text-align: center; padding: 4rem 1rem;">
-    <h1 style="font-size: 2rem; margin-bottom: 1rem;">Under construction</h1>
-    <p style="font-size: 1.1rem; color: var(--muted, #666);">
-      Shores Dashboard is being built. Check back soon.
-    </p>
-  </section>
+<Base title="Shores Dashboard — civic information for St. Clair Shores, MI">
+  <div class="page-head mono">
+    <span class="prompt">$</span>
+    <span class="cmd">tail -f</span>
+    <span class="arg">scs.civic</span>
+    <span class="sep">//</span>
+    <span class="week">week of {weekOf}</span>
+  </div>
+
+  <div class="lead">
+    <RecapLead recap={recapForLead} nextMeeting={nextMeeting} />
+  </div>
+
+  <div class="row two">
+    <NextMeetingTile meeting={nextMeeting} />
+    <NewsTile items={newsItems} />
+  </div>
+
+  <div class="row two">
+    <OrdinanceTile items={ordinances} />
+    <MeetingVideosTile items={pastMeetings} />
+  </div>
+
+  {recapForLead?.placeholder && (
+    <div class="placeholder-warning mono">
+      <span class="bracket warn">warn</span> lead tile is rendering placeholder copy from <code>src/content/recaps/2026-05-05-placeholder.md</code> — replace with a real recap before deploying
+    </div>
+  )}
 </Base>
+
+<style>
+  .page-head {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.85rem;
+    font-size: 0.78rem;
+    color: var(--fg-muted);
+  }
+  .page-head .prompt { color: var(--accent); font-weight: 600; }
+  .page-head .cmd { color: var(--fg); }
+  .page-head .arg { color: var(--accent); }
+  .page-head .sep { color: var(--fg-dim); }
+  .page-head .week { color: var(--fg-dim); }
+  .lead { margin-bottom: 0.85rem; }
+  .row.two {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.85rem;
+    margin-bottom: 0.85rem;
+  }
+  @media (max-width: 720px) {
+    .row.two { grid-template-columns: 1fr; }
+  }
+  .placeholder-warning {
+    margin-top: 1.5rem;
+    padding: 0.7rem 0.9rem;
+    background: var(--warn-bg);
+    color: var(--warn);
+    border: 1px solid var(--border-2);
+    border-radius: 4px;
+    font-size: 0.78rem;
+    display: flex;
+    gap: 0.55rem;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .placeholder-warning code {
+    background: rgba(0,0,0,0.35);
+    color: var(--fg);
+    padding: 0.08rem 0.35rem;
+    border-radius: 2px;
+    font-size: 0.76rem;
+  }
+</style>

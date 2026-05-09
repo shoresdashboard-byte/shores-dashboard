@@ -1,0 +1,86 @@
+---
+import Tile from './Tile.astro';
+
+const { recap, nextMeeting } = Astro.props;
+
+const fmt = (iso) => new Date(iso).toLocaleDateString('en-US', {
+  timeZone: 'America/Detroit', month: 'short', day: 'numeric', year: 'numeric'
+});
+
+const mode = recap ? 'recap' : (nextMeeting ? 'next' : 'empty');
+---
+<Tile accent label="lead">
+  {mode === 'recap' && (
+    <>
+      <div class="row-top">
+        <span class="pill cyan">latest_recap</span>
+        <span class="bracket">{fmt(recap.date)}</span>
+        <span class="bracket">{recap.readTime}m read</span>
+      </div>
+      <h2><a href={`/recaps/${recap.slug}`}>{recap.headline}</a></h2>
+      <p class="dek">{recap.dek}</p>
+      <a class="cta mono" href={`/recaps/${recap.slug}`}>→ read the full recap</a>
+    </>
+  )}
+
+  {mode === 'next' && (
+    <>
+      <div class="row-top">
+        <span class="pill info">next_up</span>
+        <span class="bracket">no fresh recap yet</span>
+      </div>
+      <h2>{nextMeeting.title}</h2>
+      <p class="dek">{nextMeeting.when} · {nextMeeting.location}. Recap will post here within 48 hours of the meeting.</p>
+      <a class="cta mono" href="/city">→ see the calendar</a>
+    </>
+  )}
+
+  {mode === 'empty' && (
+    <>
+      <div class="row-top">
+        <span class="pill magenta">coming_soon</span>
+      </div>
+      <h2>The first Council recap is on its way.</h2>
+      <p class="dek">Recaps post here within 48 hours of each meeting. In the meantime, browse the news and meeting calendar below.</p>
+    </>
+  )}
+</Tile>
+
+<style>
+  .row-top {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    flex-wrap: wrap;
+    margin-bottom: 0.6rem;
+  }
+  h2 {
+    margin: 0.1rem 0 0.55rem;
+    font-size: 1.45rem;
+    font-weight: 600;
+    line-height: 1.25;
+    letter-spacing: -0.012em;
+  }
+  h2 a {
+    color: var(--fg);
+  }
+  h2 a:hover {
+    color: var(--accent);
+    text-decoration: none;
+  }
+  .dek {
+    margin: 0 0 0.95rem;
+    color: var(--fg-muted);
+    font-size: 0.97rem;
+    line-height: 1.6;
+  }
+  .cta {
+    font-size: 0.82rem;
+    font-weight: 500;
+    color: var(--accent);
+    align-self: flex-start;
+  }
+  .cta:hover {
+    color: var(--accent-strong);
+  }
+</style>
