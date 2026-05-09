@@ -3,6 +3,7 @@
 A public civic information dashboard for St. Clair Shores, Michigan. Aggregates City Council activity, ordinances, news, and meeting videos from official and local sources.
 
 **Live site:** https://shoresdashboard.com *(pending domain registration)*
+**Status:** pre-launch
 
 ## What this is
 
