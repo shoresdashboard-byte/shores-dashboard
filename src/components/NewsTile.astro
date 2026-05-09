@@ -1,0 +1,83 @@
+---
+import Tile from './Tile.astro';
+
+const { items = [] } = Astro.props;
+
+const fmt = (iso) => {
+  const d = new Date(iso);
+  const days = Math.floor((Date.now() - d.getTime()) / (1000 * 60 * 60 * 24));
+  if (days <= 0) return 'today';
+  if (days === 1) return '1d ago';
+  if (days < 7)  return `${days}d ago`;
+  return d.toLocaleDateString('en-US', { timeZone: 'America/Detroit', month: 'short', day: 'numeric' });
+};
+
+const sourceTag = (s) => {
+  if (!s) return 'src';
+  if (/c&g|sentinel/i.test(s)) return 'cg';
+  if (/patch/i.test(s)) return 'patch';
+  return s.toLowerCase().replace(/[^a-z0-9]+/g, '_').slice(0, 12);
+};
+---
+<Tile label="in_the_news">
+  {items.length === 0 ? (
+    <p class="empty mono">// no recent headlines yet — scrapers populate this within hours</p>
+  ) : (
+    <ul class="list">
+      {items.slice(0, 3).map(item => (
+        <li>
+          <a href={item.link} rel="noopener" target="_blank">{item.title}</a>
+          <div class="meta">
+            <span class="bracket cyan">{sourceTag(item.source)}</span>
+            <span class="bracket">{fmt(item.isoDate)}</span>
+          </div>
+        </li>
+      ))}
+    </ul>
+  )}
+  <a class="see-all mono" href="/news">→ all news</a>
+</Tile>
+
+<style>
+  ul.list {
+    list-style: none;
+    margin: 0 0 0.7rem;
+    padding: 0;
+  }
+  ul.list li {
+    padding: 0.55rem 0;
+    border-bottom: 1px solid var(--border);
+    line-height: 1.45;
+  }
+  ul.list li:last-child {
+    border-bottom: none;
+  }
+  ul.list li a {
+    color: var(--fg);
+    font-size: 0.92rem;
+    font-weight: 500;
+    display: block;
+  }
+  ul.list li a:hover {
+    color: var(--accent);
+    text-decoration: none;
+  }
+  .meta {
+    margin-top: 0.3rem;
+    display: flex;
+    gap: 0.4rem;
+    align-items: center;
+  }
+  .see-all {
+    font-size: 0.82rem;
+    color: var(--accent);
+    align-self: flex-start;
+    margin-top: auto;
+  }
+  .see-all:hover { color: var(--accent-strong); }
+  .empty {
+    color: var(--fg-dim);
+    font-size: 0.85rem;
+    margin: 0 0 0.5rem;
+  }
+</style>

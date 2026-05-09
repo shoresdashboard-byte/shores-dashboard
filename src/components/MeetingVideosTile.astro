@@ -1,0 +1,73 @@
+---
+import Tile from './Tile.astro';
+
+const { items = [] } = Astro.props;
+
+const fmt = (iso) => new Date(iso).toLocaleDateString('en-US', {
+  timeZone: 'America/Detroit', month: 'short', day: 'numeric'
+});
+---
+<Tile label="meeting_videos">
+  {items.length === 0 ? (
+    <p class="empty mono">// videos appear here once the city posts them after each meeting</p>
+  ) : (
+    <ul class="list">
+      {items.slice(0, 3).map(item => (
+        <li>
+          <a href={item.link} rel="noopener" target="_blank">
+            {item.title}
+            <div class="meta">
+              <span class="bracket cyan">scsmi.net</span>
+              <span class="bracket">{fmt(item.isoDate)}</span>
+              {item.duration && <span class="bracket">{item.duration}</span>}
+            </div>
+          </a>
+        </li>
+      ))}
+    </ul>
+  )}
+  <a class="see-all mono" href="https://www.scsmi.net" rel="noopener" target="_blank">→ browse on scsmi.net</a>
+</Tile>
+
+<style>
+  ul.list {
+    list-style: none;
+    margin: 0 0 0.7rem;
+    padding: 0;
+  }
+  ul.list li {
+    padding: 0.55rem 0;
+    border-bottom: 1px solid var(--border);
+  }
+  ul.list li:last-child { border-bottom: none; }
+  ul.list li a {
+    color: var(--fg);
+    font-size: 0.92rem;
+    font-weight: 500;
+    display: block;
+    line-height: 1.4;
+  }
+  ul.list li a:hover {
+    color: var(--accent);
+    text-decoration: none;
+  }
+  .meta {
+    margin-top: 0.3rem;
+    display: flex;
+    gap: 0.4rem;
+    align-items: center;
+    font-weight: 400;
+  }
+  .see-all {
+    font-size: 0.82rem;
+    color: var(--accent);
+    align-self: flex-start;
+    margin-top: auto;
+  }
+  .see-all:hover { color: var(--accent-strong); }
+  .empty {
+    color: var(--fg-dim);
+    font-size: 0.85rem;
+    margin: 0 0 0.5rem;
+  }
+</style>
