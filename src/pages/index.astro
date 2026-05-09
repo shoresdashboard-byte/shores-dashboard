@@ -1,0 +1,43 @@
+---
+import Base from '../layouts/Base.astro';
+import ItemCard from '../components/ItemCard.astro';
+import SponsorSlot from '../components/SponsorSlot.astro';
+import { existsSync, readFileSync } from 'node:fs';
+import { join } from 'node:path';
+
+function load(file) {
+  const path = join(process.cwd(), 'src', 'data', file);
+  if (!existsSync(path)) return [];
+  try { return JSON.parse(readFileSync(path, 'utf8')); }
+  catch { return []; }
+}
+
+const city = load('city.json');
+const cgnews = load('cgnews.json');
+const patch = load('patch.json');
+
+const allItems = [...city, ...cgnews, ...patch]
+  .sort((a, b) => new Date(b.isoDate) - new Date(a.isoDate))
+  .slice(0, 30);
+---
+<Base title="Shores Dashboard — St. Clair Shores Civic Information">
+  <SponsorSlot />
+
+  <section>
+    <h2>Latest from across St. Clair Shores</h2>
+    {allItems.length === 0 ? (
+      <p>No items yet — scrapers will populate this on first run.</p>
+    ) : (
+      allItems.map(item => <ItemCard item={item} />)
+    )}
+  </section>
+
+  <section style="margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border);">
+    <h2>By source</h2>
+    <ul>
+      <li><a href="/city">City of St. Clair Shores ({city.length})</a></li>
+      <li><a href="/news">C&G Sentinel ({cgnews.length})</a></li>
+      <li><a href="/patch">Patch ({patch.length})</a></li>
+    </ul>
+  </section>
+</Base>

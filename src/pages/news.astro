@@ -1,0 +1,15 @@
+---
+import Base from '../layouts/Base.astro';
+import ItemCard from '../components/ItemCard.astro';
+import { existsSync, readFileSync } from 'node:fs';
+import { join } from 'node:path';
+
+const path = join(process.cwd(), 'src', 'data', 'cgnews.json');
+const items = existsSync(path) ? JSON.parse(readFileSync(path, 'utf8')) : [];
+---
+<Base title="C&G Sentinel — Shores Dashboard">
+  <p><a href="/">← All sources</a></p>
+  <h2>C&G Newspapers — St. Clair Shores Sentinel</h2>
+  <p style="color: var(--muted);">Local reporting from <a href="https://candgnews.com/newspaper/stclairshoressentinel" rel="noopener">candgnews.com</a>. Headlines only — read full articles at the source.</p>
+  {items.length === 0 ? <p>No items yet.</p> : items.map(item => <ItemCard item={item} />)}
+</Base>

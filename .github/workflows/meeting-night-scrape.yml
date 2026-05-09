@@ -1,0 +1,79 @@
+name: Council Meeting Night Scrape
+
+# 1st and 3rd Mondays, 7–10 PM ET. Cron runs in UTC and on every Monday;
+# the job itself decides whether today is the 1st or 3rd Monday of the month
+# and whether we're inside the meeting window. This avoids GitHub's lack of
+# native "nth weekday of month" cron support.
+
+on:
+  schedule:
+    # Every 30 min from 23:00 UTC (~7 PM ET in EDT / 6 PM in EST) through
+    # 03:00 UTC next day. We over-shoot slightly on both ends to absorb DST.
+    - cron: '0,30 23 * * 1'
+    - cron: '0,30 0 * * 2'
+    - cron: '0,30 1 * * 2'
+    - cron: '0,30 2 * * 2'
+    - cron: '0,30 3 * * 2'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scrape-and-deploy
+  cancel-in-progress: false
+
+jobs:
+  meeting-night-scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check if today is 1st or 3rd Monday in ET
+        id: gate
+        run: |
+          # Get current date in America/Detroit
+          DAY=$(TZ=America/Detroit date +%u)        # 1=Mon
+          DOM=$(TZ=America/Detroit date +%d | sed 's/^0//')
+          # Mondays fall on day-of-month 1-7 (1st), 8-14 (2nd), 15-21 (3rd)
+          if [ "$DAY" -eq 1 ] && { [ "$DOM" -le 7 ] || { [ "$DOM" -ge 15 ] && [ "$DOM" -le 21 ]; }; }; then
+            echo "run=true" >> $GITHUB_OUTPUT
+            echo "Today is a Council meeting Monday."
+          else
+            # Allow Tuesday early-morning UTC runs (which are still Monday evening ET)
+            DAY_ET=$(TZ=America/Detroit date +%u)
+            DOM_ET=$(TZ=America/Detroit date +%d | sed 's/^0//')
+            if [ "$DAY_ET" -eq 1 ] && { [ "$DOM_ET" -le 7 ] || { [ "$DOM_ET" -ge 15 ] && [ "$DOM_ET" -le 21 ]; }; }; then
+              echo "run=true" >> $GITHUB_OUTPUT
+            else
+              echo "run=false" >> $GITHUB_OUTPUT
+              echo "Not a Council meeting night. Skipping."
+            fi
+          fi
+
+      - uses: actions/checkout@v4
+        if: steps.gate.outputs.run == 'true'
+
+      - uses: actions/setup-node@v4
+        if: steps.gate.outputs.run == 'true'
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - run: npm ci
+        if: steps.gate.outputs.run == 'true'
+
+      - name: Run scrapers
+        if: steps.gate.outputs.run == 'true'
+        run: npm run scrape
+
+      - name: Commit data updates
+        if: steps.gate.outputs.run == 'true'
+        run: |
+          git config user.name "shores-bot"
+          git config user.email "bot@shoresdashboard.com"
+          git add src/data/
+          if git diff --cached --quiet; then
+            echo "No data changes."
+          else
+            git commit -m "data: meeting-night scrape $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          fi

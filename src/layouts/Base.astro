@@ -1,0 +1,70 @@
+---
+const { title = 'Shores Dashboard', description = 'Civic information for St. Clair Shores, Michigan' } = Astro.props;
+const buildDate = new Date().toLocaleString('en-US', { timeZone: 'America/Detroit', dateStyle: 'medium', timeStyle: 'short' });
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content={description} />
+    <title>{title}</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <style is:global>
+      :root {
+        --bg: #fafaf7;
+        --fg: #1a1a1a;
+        --muted: #5a5a5a;
+        --accent: #1e4d6b;
+        --border: #e2e0d8;
+        --card: #ffffff;
+      }
+      * { box-sizing: border-box; }
+      html, body { margin: 0; padding: 0; }
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        background: var(--bg);
+        color: var(--fg);
+        line-height: 1.5;
+      }
+      a { color: var(--accent); }
+      header.site {
+        border-bottom: 1px solid var(--border);
+        background: var(--card);
+        padding: 1.25rem 1.5rem;
+      }
+      header.site h1 { margin: 0; font-size: 1.5rem; }
+      header.site .tagline { color: var(--muted); font-size: 0.9rem; margin-top: 0.25rem; }
+      main { max-width: 1100px; margin: 0 auto; padding: 1.5rem; }
+      footer.site {
+        border-top: 1px solid var(--border);
+        padding: 1.5rem;
+        text-align: center;
+        color: var(--muted);
+        font-size: 0.85rem;
+        margin-top: 3rem;
+      }
+      footer.site .disclaimer { font-style: italic; margin-bottom: 0.75rem; }
+      footer.site a { color: var(--muted); }
+    </style>
+  </head>
+  <body>
+    <header class="site">
+      <h1>Shores Dashboard</h1>
+      <div class="tagline">Civic information for St. Clair Shores, Michigan</div>
+    </header>
+    <main>
+      <slot />
+    </main>
+    <footer class="site">
+      <div class="disclaimer">Independent civic project — not affiliated with the City of St. Clair Shores.</div>
+      <div>
+        <a href="https://www.buymeacoffee.com/shoresdashboard" rel="noopener">☕ Buy Me a Coffee</a>
+        &nbsp;·&nbsp;
+        <a href="https://github.com/" rel="noopener">Source on GitHub</a>
+        &nbsp;·&nbsp;
+        <span>Last updated: {buildDate} ET</span>
+      </div>
+    </footer>
+  </body>
+</html>

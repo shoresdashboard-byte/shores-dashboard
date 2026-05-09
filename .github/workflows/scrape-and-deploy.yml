@@ -1,0 +1,56 @@
+name: Scrape and Deploy
+
+on:
+  schedule:
+    # Every 2 hours, 6 AM – 11 PM ET (10:00 UTC – 03:00 UTC next day during EST,
+    # 09:00 UTC – 02:00 UTC during EDT). We schedule in UTC and accept the
+    # ~1hr DST drift; runs slightly off-window are harmless.
+    - cron: '0 10,12,14,16,18,20,22,0,2 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'src/**'
+      - 'astro.config.mjs'
+      - 'package.json'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scrape-and-deploy
+  cancel-in-progress: false
+
+jobs:
+  scrape-build-commit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - run: npm ci
+
+      - name: Run scrapers
+        run: npm run scrape
+
+      - name: Commit data updates
+        run: |
+          git config user.name "shores-bot"
+          git config user.email "bot@shoresdashboard.com"
+          git add src/data/
+          if git diff --cached --quiet; then
+            echo "No data changes."
+          else
+            git commit -m "data: scheduled scrape $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          fi
+
+      - name: Build site
+        run: npm run build
+
+      # Cloudflare Pages will auto-deploy on push to main. No manual deploy step needed
+      # once the Pages project is connected to this repo via the Cloudflare dashboard.
