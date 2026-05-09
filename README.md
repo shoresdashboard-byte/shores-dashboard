@@ -13,8 +13,7 @@ An independent civic project — not affiliated with the City of St. Clair Shore
 | Source | Method | Cadence |
 |---|---|---|
 | scsmi.net (City of SCS) | RSS — CivicEngage feeds | Every 2 hrs (6 AM – 11 PM ET) |
-| C&G Newspapers — SCS Sentinel | RSS | Every 2 hrs (6 AM – 11 PM ET) |
-| Patch — St. Clair Shores | RSS | Every 2 hrs (6 AM – 11 PM ET) |
+| C&G Newspapers — SCS Sentinel | RSS (site-wide feed, filtered to SCS) | Every 2 hrs (6 AM – 11 PM ET) |
 | All sources on Council meeting nights | RSS | Every 30 min, 7–10 PM ET, 1st & 3rd Mondays |
 
 ## Stack
