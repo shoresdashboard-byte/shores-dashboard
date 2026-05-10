@@ -3,7 +3,7 @@ import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-const scrapers = ['scs-city.js', 'cg-sentinel.js', 'patch.js'];
+const scrapers = ['scs-city.js', 'cg-sentinel.js'];
 
 function run(file) {
   return new Promise(resolve => {
