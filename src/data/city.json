@@ -40,6 +40,14 @@
     "source": "City of SCS — City Calendar"
   },
   {
+    "id": "https://www.scsmi.net/Calendar.aspx?EID=13237/639089250990000000",
+    "title": "Memorial Day Parade",
+    "link": "https://www.scsmi.net/Calendar.aspx?EID=13237",
+    "isoDate": "2026-03-12T20:11:39.000Z",
+    "snippet": "Event date: May 24, 2026 Event Time: 01:00 PM - 04:00 PM Location: St. Clair Shores, MI 48081",
+    "source": "City of SCS — City Calendar"
+  },
+  {
     "id": "https://www.scsmi.net/Calendar.aspx?EID=13521/639034771270000000",
     "title": "Senior Advisory Committee",
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13521",
@@ -85,6 +93,14 @@
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13239",
     "isoDate": "2025-11-24T14:30:00.000Z",
     "snippet": "Event date: May 16, 2026 Event Time: 09:00 AM - 01:00 PM Location: 19700 Pleasant Dr. St. Clair Shores, MI 48081",
+    "source": "City of SCS — City Calendar"
+  },
+  {
+    "id": "https://www.scsmi.net/Calendar.aspx?EID=13236/638995689980000000",
+    "title": "Veterans Memorial Service",
+    "link": "https://www.scsmi.net/Calendar.aspx?EID=13236",
+    "isoDate": "2025-11-24T14:16:38.000Z",
+    "snippet": "Event date: May 24, 2026 Event Time: 09:00 AM - 10:00 AM Location: 32400 Jefferson Ave. St. Clair Shores, MI 48081",
     "source": "City of SCS — City Calendar"
   },
   {
