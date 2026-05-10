@@ -11,18 +11,31 @@ import { join } from 'node:path';
 
 // --- Load data ---------------------------------------------------------
 
-const recaps = await getCollection('recaps').catch(() => []);
+// Hard guard: placeholder recaps must never reach the homepage. The
+// collection schema marks them with `placeholder: true`; we strip them at
+// the source so no downstream code can accidentally pick one up.
+const recaps = (await getCollection('recaps').catch(() => []))
+  .filter(r => r.data.placeholder !== true);
+
 const latestRecap = recaps
   .slice()
   .sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime())[0];
+
+// Defense in depth: if a placeholder somehow makes it past the filter,
+// fail the build loudly rather than ship to production.
+if (latestRecap?.data.placeholder) {
+  throw new Error(
+    `[homepage] placeholder recap leaked through filter: ${latestRecap.slug}. ` +
+    `Check src/content/recaps/ — files with placeholder:true must not appear in prod.`
+  );
+}
 
 const recapForLead = latestRecap ? {
   slug: latestRecap.slug,
   date: latestRecap.data.date,
   headline: latestRecap.data.headline,
   dek: latestRecap.data.dek,
-  readTime: latestRecap.data.readTime,
-  placeholder: latestRecap.data.placeholder
+  readTime: latestRecap.data.readTime
 } : null;
 
 function loadJson(rel) {
@@ -59,8 +72,16 @@ const cityDecorated = cityRaw.map(it => ({
   location: parseLocation(it.snippet)
 })).filter(it => it.eventDate);
 
+// Allowlist filter: a "next meeting" tile must be a meeting of an actual
+// governing body, not a community recreation event or city festival. This
+// matches the language used in scsmi.net's calendar event titles.
+const MEETING_TITLE = /\b(council|planning|commission|board|zoning|authority|committee|trustee)\b/i;
+const CANCEL_TITLE = /\bcancel/i;
+
 const upcoming = cityDecorated
-  .filter(it => it.eventDate >= now && !/cancel/i.test(it.title))
+  .filter(it => it.eventDate >= now)
+  .filter(it => MEETING_TITLE.test(it.title))
+  .filter(it => !CANCEL_TITLE.test(it.title))
   .sort((a, b) => a.eventDate.getTime() - b.eventDate.getTime());
 
 const nextMeeting = upcoming[0] ? {
@@ -125,12 +146,6 @@ const weekOf = (() => {
     <OrdinanceTile items={ordinances} />
     <MeetingVideosTile items={pastMeetings} />
   </div>
-
-  {recapForLead?.placeholder && (
-    <div class="placeholder-warning mono">
-      <span class="bracket warn">warn</span> lead tile is rendering placeholder copy from <code>src/content/recaps/2026-05-05-placeholder.md</code> — replace with a real recap before deploying
-    </div>
-  )}
 </Base>
 
 <style>
@@ -156,25 +171,5 @@ const weekOf = (() => {
   }
   @media (max-width: 720px) {
     .row.two { grid-template-columns: 1fr; }
-  }
-  .placeholder-warning {
-    margin-top: 1.5rem;
-    padding: 0.7rem 0.9rem;
-    background: var(--warn-bg);
-    color: var(--warn);
-    border: 1px solid var(--border-2);
-    border-radius: 4px;
-    font-size: 0.78rem;
-    display: flex;
-    gap: 0.55rem;
-    align-items: center;
-    flex-wrap: wrap;
-  }
-  .placeholder-warning code {
-    background: rgba(0,0,0,0.35);
-    color: var(--fg);
-    padding: 0.08rem 0.35rem;
-    border-radius: 2px;
-    font-size: 0.76rem;
   }
 </style>

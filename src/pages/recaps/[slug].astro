@@ -1,0 +1,154 @@
+---
+import Base from '../../layouts/Base.astro';
+import Tile from '../../components/Tile.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  // Hard guard: placeholder recaps do not get rendered as pages. Same
+  // policy as the homepage filter — keeps dev fixtures out of production.
+  const recaps = (await getCollection('recaps'))
+    .filter(r => r.data.placeholder !== true);
+
+  return recaps.map(recap => ({
+    params: { slug: recap.slug },
+    props: { recap }
+  }));
+}
+
+const { recap } = Astro.props;
+const { Content } = await recap.render();
+
+const formattedDate = new Date(recap.data.date).toLocaleDateString('en-US', {
+  timeZone: 'America/Detroit',
+  weekday: 'long',
+  month: 'long',
+  day: 'numeric',
+  year: 'numeric'
+});
+---
+<Base
+  title={`${recap.data.headline} — Shores Dashboard`}
+  description={recap.data.dek}
+>
+  <div class="page-head mono">
+    <a href="/" class="back">← home</a>
+    <span class="sep">//</span>
+    <span class="crumb">council recap</span>
+  </div>
+
+  <article class="recap">
+    <Tile accent label="council_recap">
+      <div class="meta-row">
+        <span class="pill cyan">recap</span>
+        <span class="bracket">{formattedDate}</span>
+        <span class="bracket">{recap.data.readTime}m read</span>
+      </div>
+      <h1>{recap.data.headline}</h1>
+      <p class="dek">{recap.data.dek}</p>
+      <div class="body">
+        <Content />
+      </div>
+    </Tile>
+
+    <div class="footer-nav mono">
+      <a href="/">← back to home</a>
+      <span class="sep">//</span>
+      <a href="/city">~/council calendar</a>
+    </div>
+  </article>
+</Base>
+
+<style>
+  .page-head {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.85rem;
+    font-size: 0.78rem;
+    color: var(--fg-muted);
+  }
+  .page-head .back { color: var(--accent); }
+  .page-head .sep { color: var(--fg-dim); }
+  .page-head .crumb { color: var(--fg-dim); }
+
+  .recap { max-width: 760px; margin: 0 auto; }
+
+  .meta-row {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    flex-wrap: wrap;
+    margin-bottom: 0.65rem;
+  }
+
+  h1 {
+    margin: 0.1rem 0 0.55rem;
+    font-size: 1.75rem;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: -0.012em;
+    color: var(--fg);
+  }
+
+  .dek {
+    margin: 0 0 1.2rem;
+    color: var(--fg-muted);
+    font-size: 1.02rem;
+    line-height: 1.6;
+  }
+
+  .body {
+    color: var(--fg);
+    font-size: 1rem;
+    line-height: 1.7;
+  }
+  .body :global(h2) {
+    margin-top: 1.6rem;
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--fg);
+  }
+  .body :global(h3) {
+    margin-top: 1.2rem;
+    margin-bottom: 0.4rem;
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: var(--fg);
+  }
+  .body :global(p) {
+    margin: 0 0 0.95rem;
+  }
+  .body :global(ul), .body :global(ol) {
+    margin: 0 0 0.95rem 1.25rem;
+    padding: 0;
+  }
+  .body :global(li) {
+    margin-bottom: 0.35rem;
+  }
+  .body :global(blockquote) {
+    margin: 1rem 0;
+    padding: 0.6rem 0.95rem;
+    border-left: 3px solid var(--accent);
+    background: var(--surface-2);
+    color: var(--fg-muted);
+    font-style: italic;
+  }
+  .body :global(code) {
+    font-family: 'JetBrains Mono', ui-monospace, monospace;
+    font-size: 0.92em;
+    background: var(--surface-2);
+    padding: 0.05rem 0.3rem;
+    border-radius: 2px;
+  }
+
+  .footer-nav {
+    margin-top: 1.5rem;
+    display: flex;
+    gap: 0.55rem;
+    align-items: center;
+    font-size: 0.82rem;
+    color: var(--fg-muted);
+  }
+  .footer-nav .sep { color: var(--fg-dim); }
+</style>
