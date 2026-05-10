@@ -4,31 +4,33 @@ import { fetchFeed, writeData } from './_lib.js';
  * C&G Newspapers — St. Clair Shores Sentinel.
  *
  * C&G publishes only one RSS feed for the entire 21-paper network at
- * /rss.xml. We pull that and filter to items relevant to St. Clair Shores.
+ * /rss.xml. We pull that and filter to items that mention St. Clair
+ * Shores in the title or snippet.
  *
- * Filter logic (item is kept if ANY of these match):
- *   1. RSS <category> contains "St. Clair Shores Sentinel" (per-paper tag
- *      that C&G assigns to articles published in the SCS edition).
- *   2. Title begins with "ST. CLAIR SHORES" (their convention for the
- *      dateline on local stories — catches anything missing the per-paper
- *      tag but obviously about the city).
+ * History: the original filter checked RSS <category> tags and a
+ * "ST. CLAIR SHORES" title-prefix dateline. A diagnostic run on the live
+ * feed (see debug/cg-sentinel-feed-shape) showed that C&G items have no
+ * categories at all and titles use sentence case with no dateline prefix.
+ * Both filter paths were always misses. This filter is what works against
+ * the actual feed shape.
  *
- * If C&G changes the feed structure or stops including categories, the
- * title-prefix path keeps us getting the most important local items.
+ * The match is intentionally permissive (any item whose title or snippet
+ * mentions "St. Clair Shores") because SCS coverage in the network feed
+ * is thin — we'd rather catch occasional historical/feature content than
+ * miss real civic news. If it turns out filler dominates real coverage,
+ * tighten later.
  */
 const FEED_URL = 'https://www.candgnews.com/rss.xml';
-const SCS_CATEGORY = 'st. clair shores sentinel';
-const SCS_TITLE_PREFIX = 'ST. CLAIR SHORES';
+
+// Word-boundary match for "St. Clair Shores" / "St Clair Shores" /
+// "St.Clair Shores". The trailing \b on "Shores" prevents matching
+// substrings like "Shoresville" (not that any such place exists, but
+// hygiene). Case-insensitive.
+const SCS_RE = /\bSt\.?\s*Clair\s+Shores\b/i;
 
 function isSCSItem(item) {
-  const cats = (item.categories || []).map(c =>
-    String(typeof c === 'string' ? c : (c && c._) || '').toLowerCase()
-  );
-  if (cats.some(c => c.includes(SCS_CATEGORY))) return true;
-
-  const title = String(item.title || '').trim();
-  if (title.toUpperCase().startsWith(SCS_TITLE_PREFIX)) return true;
-
+  if (SCS_RE.test(item.title || '')) return true;
+  if (SCS_RE.test(item.snippet || '')) return true;
   return false;
 }
 
