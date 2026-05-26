@@ -1,5 +1,13 @@
 [
   {
+    "id": "https://www.scsmi.net/CivicAlerts.aspx?aid=984/639153921660000000",
+    "title": "Jefferson Road Update",
+    "link": "https://www.scsmi.net/CivicAlerts.aspx?aid=984",
+    "isoDate": "2026-05-26T16:36:06.000Z",
+    "snippet": "",
+    "source": "City of SCS — City News"
+  },
+  {
     "id": "https://www.scsmi.net/Calendar.aspx?EID=13374/639150608820000000",
     "title": "Planning Commission - Cancelled",
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13374",
@@ -168,11 +176,27 @@
     "source": "City of SCS — City Calendar"
   },
   {
+    "id": "https://www.scsmi.net/Calendar.aspx?EID=13416/639004393860000000",
+    "title": "Building/Property Maintenance Board",
+    "link": "https://www.scsmi.net/Calendar.aspx?EID=13416",
+    "isoDate": "2025-12-04T16:03:06.000Z",
+    "snippet": "Event date: June 9, 2026 Event Time: 04:00 PM - 05:00 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
+    "source": "City of SCS — City Calendar"
+  },
+  {
     "id": "https://www.scsmi.net/Calendar.aspx?EID=13374/639004374460000000",
     "title": "Planning Commission",
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13374",
     "isoDate": "2025-12-04T15:30:46.000Z",
     "snippet": "Event date: May 26, 2026 Event Time: 07:00 PM - 10:00 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
+    "source": "City of SCS — City Calendar"
+  },
+  {
+    "id": "https://www.scsmi.net/Calendar.aspx?EID=13363/639004370660000000",
+    "title": "Planning Commission",
+    "link": "https://www.scsmi.net/Calendar.aspx?EID=13363",
+    "isoDate": "2025-12-04T15:24:26.000Z",
+    "snippet": "Event date: June 9, 2026 Event Time: 07:00 PM - 10:00 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
     "source": "City of SCS — City Calendar"
   },
   {
