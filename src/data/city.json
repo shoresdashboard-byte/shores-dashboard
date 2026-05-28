@@ -56,6 +56,14 @@
     "source": "City of SCS — City Calendar"
   },
   {
+    "id": "https://www.scsmi.net/Calendar.aspx?EID=12024/639147900920000000",
+    "title": "Cultural Committee Meeting",
+    "link": "https://www.scsmi.net/Calendar.aspx?EID=12024",
+    "isoDate": "2026-05-19T17:21:32.000Z",
+    "snippet": "Event date: June 11, 2026 Event Time: 06:30 PM - 08:00 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
+    "source": "City of SCS — City Calendar"
+  },
+  {
     "id": "https://www.scsmi.net/Calendar.aspx?EID=13315/639147144220000000",
     "title": "Water Resources Development and Advisory Board Meeting",
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13315",
@@ -261,6 +269,14 @@
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13291",
     "isoDate": "2025-12-02T15:02:17.000Z",
     "snippet": "Event date: May 28, 2026 Event Time: 04:00 PM - 04:30 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
+    "source": "City of SCS — City Calendar"
+  },
+  {
+    "id": "https://www.scsmi.net/Calendar.aspx?EID=13251/638995702210000000",
+    "title": "Thursday Market",
+    "link": "https://www.scsmi.net/Calendar.aspx?EID=13251",
+    "isoDate": "2025-11-24T14:37:01.000Z",
+    "snippet": "Event date: June 11, 2026 Event Time: 05:00 PM - 09:00 PM Location: 24800 Jefferson Ave. St. Clair Shores, MI 48081",
     "source": "City of SCS — City Calendar"
   },
   {
