@@ -176,6 +176,14 @@
     "source": "City of SCS — City Calendar"
   },
   {
+    "id": "https://www.scsmi.net/Calendar.aspx?EID=13522/639034771270000000",
+    "title": "Senior Advisory Committee",
+    "link": "https://www.scsmi.net/Calendar.aspx?EID=13522",
+    "isoDate": "2026-01-08T19:52:07.000Z",
+    "snippet": "Event date: June 18, 2026 Event Time: 06:00 PM - 07:00 PM Location: 27600 Jefferson St. Clair Shores, MI 48081",
+    "source": "City of SCS — City Calendar"
+  },
+  {
     "id": "https://www.scsmi.net/Calendar.aspx?EID=13521/639034771270000000",
     "title": "Senior Advisory Committee",
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13521",
@@ -208,6 +216,14 @@
     "source": "City of SCS — City Calendar"
   },
   {
+    "id": "https://www.scsmi.net/Calendar.aspx?EID=13461/639007872650000000",
+    "title": "Library Board Meeting",
+    "link": "https://www.scsmi.net/Calendar.aspx?EID=13461",
+    "isoDate": "2025-12-08T16:41:05.000Z",
+    "snippet": "Event date: June 18, 2026 Event Time: 09:30 AM - 10:30 AM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
+    "source": "City of SCS — City Calendar"
+  },
+  {
     "id": "https://www.scsmi.net/Calendar.aspx?EID=13460/639007872650000000",
     "title": "Library Board Meeting",
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13460",
@@ -221,6 +237,14 @@
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13449",
     "isoDate": "2025-12-08T16:26:12.000Z",
     "snippet": "Event date: June 2, 2026 Event Time: 07:00 PM - 08:00 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
+    "source": "City of SCS — City Calendar"
+  },
+  {
+    "id": "https://www.scsmi.net/Calendar.aspx?EID=13441/639007846410000000",
+    "title": "TIFA/Brownfield",
+    "link": "https://www.scsmi.net/Calendar.aspx?EID=13441",
+    "isoDate": "2025-12-08T15:57:21.000Z",
+    "snippet": "Event date: June 18, 2026 Event Time: 06:00 PM - 07:30 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
     "source": "City of SCS — City Calendar"
   },
   {
@@ -320,14 +344,6 @@
     "source": "City of SCS — City Calendar"
   },
   {
-    "id": "https://www.scsmi.net/Calendar.aspx?EID=13240/638995699840000000",
-    "title": "Music by the Lake",
-    "link": "https://www.scsmi.net/Calendar.aspx?EID=13240",
-    "isoDate": "2025-11-24T14:33:04.000Z",
-    "snippet": "Event date: June 3, 2026 Event Time: 07:00 PM - 09:00 PM Location: 32400 Jefferson Ave. St. Clair Shores, MI 48081",
-    "source": "City of SCS — City Calendar"
-  },
-  {
     "id": "https://www.scsmi.net/Calendar.aspx?EID=13241/638995699840000000",
     "title": "Music by the Lake",
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13241",
@@ -341,6 +357,14 @@
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13242",
     "isoDate": "2025-11-24T14:33:04.000Z",
     "snippet": "Event date: June 17, 2026 Event Time: 07:00 PM - 09:00 PM Location: 32400 Jefferson Ave. St. Clair Shores, MI 48081",
+    "source": "City of SCS — City Calendar"
+  },
+  {
+    "id": "https://www.scsmi.net/Calendar.aspx?EID=13240/638995699840000000",
+    "title": "Music by the Lake",
+    "link": "https://www.scsmi.net/Calendar.aspx?EID=13240",
+    "isoDate": "2025-11-24T14:33:04.000Z",
+    "snippet": "Event date: June 3, 2026 Event Time: 07:00 PM - 09:00 PM Location: 32400 Jefferson Ave. St. Clair Shores, MI 48081",
     "source": "City of SCS — City Calendar"
   },
   {
