@@ -24,6 +24,14 @@
     "source": "City of SCS — City Calendar"
   },
   {
+    "id": "https://www.scsmi.net/Calendar.aspx?EID=13535/639165915450000000",
+    "title": "Downtown Social District",
+    "link": "https://www.scsmi.net/Calendar.aspx?EID=13535",
+    "isoDate": "2026-06-09T13:45:45.000Z",
+    "snippet": "Event date: June 27, 2026 Event Time: 05:00 PM - 11:55 PM Location: St. Clair Shores, MI 48081",
+    "source": "City of SCS — City Calendar"
+  },
+  {
     "id": "https://www.scsmi.net/Calendar.aspx?EID=13530/639165915020000000",
     "title": "Downtown Social District",
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13530",
@@ -48,19 +56,19 @@
     "source": "City of SCS — City Calendar"
   },
   {
-    "id": "https://www.scsmi.net/CivicAlerts.aspx?aid=985/639161559000000000",
-    "title": "Ten Mile Drain Superfund Site Community Interviews",
-    "link": "https://www.scsmi.net/CivicAlerts.aspx?aid=985",
-    "isoDate": "2026-06-04T12:45:00.000Z",
-    "snippet": "EPA invites the public to attend community interviews on the status of the Ten Mile Drain Superfund Site. During the interviews, you will be able to ask questions and meet with EPA staff to learn about the site cleanup.",
-    "source": "City of SCS — City News"
-  },
-  {
     "id": "https://www.scsmi.net/CivicAlerts.aspx?aid=973/639161559000000000",
     "title": "Throw a Block Party",
     "link": "https://www.scsmi.net/CivicAlerts.aspx?aid=973",
     "isoDate": "2026-06-04T12:45:00.000Z",
     "snippet": "",
+    "source": "City of SCS — City News"
+  },
+  {
+    "id": "https://www.scsmi.net/CivicAlerts.aspx?aid=985/639161559000000000",
+    "title": "Ten Mile Drain Superfund Site Community Interviews",
+    "link": "https://www.scsmi.net/CivicAlerts.aspx?aid=985",
+    "isoDate": "2026-06-04T12:45:00.000Z",
+    "snippet": "EPA invites the public to attend community interviews on the status of the Ten Mile Drain Superfund Site. During the interviews, you will be able to ask questions and meet with EPA staff to learn about the site cleanup.",
     "source": "City of SCS — City News"
   },
   {
