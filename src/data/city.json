@@ -112,6 +112,14 @@
     "source": "City of SCS — City Calendar"
   },
   {
+    "id": "https://www.scsmi.net/Calendar.aspx?EID=13531/639165915020000000",
+    "title": "Downtown Social District",
+    "link": "https://www.scsmi.net/Calendar.aspx?EID=13531",
+    "isoDate": "2026-06-09T13:45:02.000Z",
+    "snippet": "Event date: July 11, 2026 Event Time: 05:00 PM - 11:55 PM Location: St. Clair Shores, MI 48081",
+    "source": "City of SCS — City Calendar"
+  },
+  {
     "id": "https://www.scsmi.net/Calendar.aspx?EID=13530/639165915020000000",
     "title": "Downtown Social District",
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13530",
@@ -568,6 +576,14 @@
     "source": "City of SCS — City Calendar"
   },
   {
+    "id": "https://www.scsmi.net/Calendar.aspx?EID=13273/638995710460000000",
+    "title": "I-94 Ramp Cleanup",
+    "link": "https://www.scsmi.net/Calendar.aspx?EID=13273",
+    "isoDate": "2025-11-24T14:50:46.000Z",
+    "snippet": "Event date: July 11, 2026 Event Time: 10:00 AM - 12:00 PM Location: St. Clair Shores, MI 48081",
+    "source": "City of SCS — City Calendar"
+  },
+  {
     "id": "https://www.scsmi.net/Calendar.aspx?EID=13272/638995710460000000",
     "title": "I-94 Ramp Cleanup",
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13272",
@@ -781,14 +797,6 @@
     "link": "https://www.scsmi.net/Calendar.aspx?EID=12025",
     "isoDate": "2025-04-16T16:53:54.000Z",
     "snippet": "Event date: July 8, 2026 Event Time: 06:30 PM - 08:00 PM Location: 22500 11 Mile Road St. Clair Shores, MI 48081",
-    "source": "City of SCS — City Calendar"
-  },
-  {
-    "id": "https://www.scsmi.net/Calendar.aspx?EID=12023/638804011840000000",
-    "title": "Cultural Committee Meeting",
-    "link": "https://www.scsmi.net/Calendar.aspx?EID=12023",
-    "isoDate": "2025-04-16T16:53:04.000Z",
-    "snippet": "Event date: May 13, 2026 Event Time: 06:30 PM - 08:00 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
     "source": "City of SCS — City Calendar"
   }
 ]
