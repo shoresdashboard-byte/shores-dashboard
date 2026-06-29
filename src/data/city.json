@@ -1,5 +1,13 @@
 [
   {
+    "id": "https://www.scsmi.net/CivicAlerts.aspx?aid=988/639183225770000000",
+    "title": "Annual City Wide Garage Sale Returns August 14-16",
+    "link": "https://www.scsmi.net/CivicAlerts.aspx?aid=988",
+    "isoDate": "2026-06-29T14:36:17.000Z",
+    "snippet": "The annual City Wide Garage Sale is returning for 2026! It'll be held the weekend of Friday, August 14-Sunday, August 16 and run once again by the Cool City Committee. Follow their Facebook Page for updates and more announcements.",
+    "source": "City of SCS — City News"
+  },
+  {
     "id": "https://www.scsmi.net/Calendar.aspx?EID=13328/639180641380000000",
     "title": "Zoning Board of Appeals - CANCELLED",
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13328",
@@ -312,6 +320,14 @@
     "source": "City of SCS — City Calendar"
   },
   {
+    "id": "https://www.scsmi.net/Calendar.aspx?EID=13528/639119260150000000",
+    "title": "Election Commission Meeting",
+    "link": "https://www.scsmi.net/Calendar.aspx?EID=13528",
+    "isoDate": "2026-04-16T13:46:55.000Z",
+    "snippet": "Event date: July 13, 2026 Event Time: 10:30 AM - 11:30 AM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
+    "source": "City of SCS — City Calendar"
+  },
+  {
     "id": "https://www.scsmi.net/Calendar.aspx?EID=13527/639118381020000000",
     "title": "Memorial Day Parade Volunteer Training",
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13527",
@@ -600,6 +616,14 @@
     "source": "City of SCS — City Calendar"
   },
   {
+    "id": "https://www.scsmi.net/Calendar.aspx?EID=13255/638995704130000000",
+    "title": "Chamber Concert",
+    "link": "https://www.scsmi.net/Calendar.aspx?EID=13255",
+    "isoDate": "2025-11-24T14:40:13.000Z",
+    "snippet": "Event date: July 13, 2026 Event Time: 07:00 PM - 08:00 PM Location: 24800 Jefferson Ave. St. Clair Shores, MI 48081",
+    "source": "City of SCS — City Calendar"
+  },
+  {
     "id": "https://www.scsmi.net/Calendar.aspx?EID=13252/638995702210000000",
     "title": "Thursday Market",
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13252",
@@ -704,6 +728,14 @@
     "source": "City of SCS — City Calendar"
   },
   {
+    "id": "https://www.scsmi.net/Calendar.aspx?EID=13228/638995684030000000",
+    "title": "Long Monday",
+    "link": "https://www.scsmi.net/Calendar.aspx?EID=13228",
+    "isoDate": "2025-11-24T14:06:43.000Z",
+    "snippet": "Event date: July 13, 2026 Event Time: 07:00 AM - 07:00 PM Location: 19700 Pleasant Dr. St. Clair Shores, MI 48081",
+    "source": "City of SCS — City Calendar"
+  },
+  {
     "id": "https://www.scsmi.net/Calendar.aspx?EID=13227/638995684030000000",
     "title": "Long Monday",
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13227",
@@ -765,38 +797,6 @@
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13170",
     "isoDate": "2025-10-07T16:31:17.000Z",
     "snippet": "Event date: May 18, 2026 Event Time: 07:00 PM - 11:59 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
-    "source": "City of SCS — City Calendar"
-  },
-  {
-    "id": "https://www.scsmi.net/Calendar.aspx?EID=13159/638954333220000000",
-    "title": "City Council Meeting",
-    "link": "https://www.scsmi.net/Calendar.aspx?EID=13159",
-    "isoDate": "2025-10-07T16:28:42.000Z",
-    "snippet": "Event date: June 1, 2026 Event Time: 07:00 PM - 11:59 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
-    "source": "City of SCS — City Calendar"
-  },
-  {
-    "id": "https://www.scsmi.net/Calendar.aspx?EID=13146/638941344030000000",
-    "title": "General Employees Pension Board Meeting",
-    "link": "https://www.scsmi.net/Calendar.aspx?EID=13146",
-    "isoDate": "2025-09-22T15:40:03.000Z",
-    "snippet": "Event date: June 16, 2026 Event Time: 03:30 PM - 04:30 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
-    "source": "City of SCS — City Calendar"
-  },
-  {
-    "id": "https://www.scsmi.net/Calendar.aspx?EID=13145/638941343380000000",
-    "title": "General Employees Pension Board Meeting",
-    "link": "https://www.scsmi.net/Calendar.aspx?EID=13145",
-    "isoDate": "2025-09-22T15:38:58.000Z",
-    "snippet": "Event date: May 12, 2026 Event Time: 03:30 PM - 04:30 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
-    "source": "City of SCS — City Calendar"
-  },
-  {
-    "id": "https://www.scsmi.net/Calendar.aspx?EID=12025/638804012340000000",
-    "title": "Cultural Committee Meeting",
-    "link": "https://www.scsmi.net/Calendar.aspx?EID=12025",
-    "isoDate": "2025-04-16T16:53:54.000Z",
-    "snippet": "Event date: July 8, 2026 Event Time: 06:30 PM - 08:00 PM Location: 22500 11 Mile Road St. Clair Shores, MI 48081",
     "source": "City of SCS — City Calendar"
   }
 ]
