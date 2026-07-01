@@ -472,6 +472,14 @@
     "source": "City of SCS — City Calendar"
   },
   {
+    "id": "https://www.scsmi.net/Calendar.aspx?EID=13430/639004400510000000",
+    "title": "Fence Arbitration",
+    "link": "https://www.scsmi.net/Calendar.aspx?EID=13430",
+    "isoDate": "2025-12-04T16:14:11.000Z",
+    "snippet": "Event date: July 15, 2026 Event Time: 02:00 PM - 03:00 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
+    "source": "City of SCS — City Calendar"
+  },
+  {
     "id": "https://www.scsmi.net/Calendar.aspx?EID=13429/639004400510000000",
     "title": "Fence Arbitration",
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13429",
@@ -672,6 +680,14 @@
     "source": "City of SCS — City Calendar"
   },
   {
+    "id": "https://www.scsmi.net/Calendar.aspx?EID=13246/638995699840000000",
+    "title": "Music by the Lake",
+    "link": "https://www.scsmi.net/Calendar.aspx?EID=13246",
+    "isoDate": "2025-11-24T14:33:04.000Z",
+    "snippet": "Event date: July 15, 2026 Event Time: 07:00 PM - 09:00 PM Location: 32400 Jefferson Ave. St. Clair Shores, MI 48081",
+    "source": "City of SCS — City Calendar"
+  },
+  {
     "id": "https://www.scsmi.net/Calendar.aspx?EID=13243/638995699840000000",
     "title": "Music by the Lake",
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13243",
@@ -781,22 +797,6 @@
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13197",
     "isoDate": "2025-10-07T16:47:05.000Z",
     "snippet": "Event date: June 23, 2026 Event Time: 07:00 PM - 11:59 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
-    "source": "City of SCS — City Calendar"
-  },
-  {
-    "id": "https://www.scsmi.net/Calendar.aspx?EID=13196/638954344250000000",
-    "title": "Council Sub-Committee on Boards, Commissions & Committees Meeting",
-    "link": "https://www.scsmi.net/Calendar.aspx?EID=13196",
-    "isoDate": "2025-10-07T16:47:05.000Z",
-    "snippet": "Event date: May 26, 2026 Event Time: 07:00 PM - 11:59 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
-    "source": "City of SCS — City Calendar"
-  },
-  {
-    "id": "https://www.scsmi.net/Calendar.aspx?EID=13182/638954336950000000",
-    "title": "City Offices Closed - Independence Day",
-    "link": "https://www.scsmi.net/Calendar.aspx?EID=13182",
-    "isoDate": "2025-10-07T16:34:55.000Z",
-    "snippet": "Event date: July 3, 2026 Event Time: 12:00 AM - 11:59 PM Location: St. Clair Shores, MI 48081",
     "source": "City of SCS — City Calendar"
   }
 ]
