@@ -432,6 +432,14 @@
     "source": "City of SCS — City Calendar"
   },
   {
+    "id": "https://www.scsmi.net/Calendar.aspx?EID=13462/639007875660000000",
+    "title": "Library Board Meeting",
+    "link": "https://www.scsmi.net/Calendar.aspx?EID=13462",
+    "isoDate": "2025-12-08T16:46:06.000Z",
+    "snippet": "Event date: July 16, 2026 Event Time: 09:30 AM - 10:30 AM Location: 22500 11 Mile Road St. Clair Shores, MI 48081",
+    "source": "City of SCS — City Calendar"
+  },
+  {
     "id": "https://www.scsmi.net/Calendar.aspx?EID=13461/639007872650000000",
     "title": "Library Board Meeting",
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13461",
@@ -789,14 +797,6 @@
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13226",
     "isoDate": "2025-11-24T14:06:43.000Z",
     "snippet": "Event date: May 11, 2026 Event Time: 07:00 AM - 07:00 PM Location: 19700 Pleasant Dr. St. Clair Shores, MI 48081",
-    "source": "City of SCS — City Calendar"
-  },
-  {
-    "id": "https://www.scsmi.net/Calendar.aspx?EID=13197/638954344250000000",
-    "title": "Council Sub-Committee on Boards, Commissions & Committees Meeting",
-    "link": "https://www.scsmi.net/Calendar.aspx?EID=13197",
-    "isoDate": "2025-10-07T16:47:05.000Z",
-    "snippet": "Event date: June 23, 2026 Event Time: 07:00 PM - 11:59 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
     "source": "City of SCS — City Calendar"
   }
 ]
