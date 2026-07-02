@@ -1,5 +1,13 @@
 [
   {
+    "id": "https://www.scsmi.net/CivicAlerts.aspx?aid=981/639185861400000000",
+    "title": "Library Renovation Updates",
+    "link": "https://www.scsmi.net/CivicAlerts.aspx?aid=981",
+    "isoDate": "2026-07-02T15:49:00.000Z",
+    "snippet": "",
+    "source": "City of SCS — City News"
+  },
+  {
     "id": "https://www.scsmi.net/CivicAlerts.aspx?aid=988/639183225770000000",
     "title": "Annual City Wide Garage Sale Returns August 14-16",
     "link": "https://www.scsmi.net/CivicAlerts.aspx?aid=988",
@@ -789,14 +797,6 @@
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13227",
     "isoDate": "2025-11-24T14:06:43.000Z",
     "snippet": "Event date: June 8, 2026 Event Time: 07:00 AM - 07:00 PM Location: 19700 Pleasant Dr. St. Clair Shores, MI 48081",
-    "source": "City of SCS — City Calendar"
-  },
-  {
-    "id": "https://www.scsmi.net/Calendar.aspx?EID=13226/638995684030000000",
-    "title": "Long Monday",
-    "link": "https://www.scsmi.net/Calendar.aspx?EID=13226",
-    "isoDate": "2025-11-24T14:06:43.000Z",
-    "snippet": "Event date: May 11, 2026 Event Time: 07:00 AM - 07:00 PM Location: 19700 Pleasant Dr. St. Clair Shores, MI 48081",
     "source": "City of SCS — City Calendar"
   }
 ]
