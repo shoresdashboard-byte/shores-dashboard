@@ -1,5 +1,13 @@
 [
   {
+    "id": "https://www.scsmi.net/CivicAlerts.aspx?aid=989/639189225070000000",
+    "title": "Chipper Service for Storm Debris",
+    "link": "https://www.scsmi.net/CivicAlerts.aspx?aid=989",
+    "isoDate": "2026-07-06T13:15:07.000Z",
+    "snippet": "The City has hired a contractor who will be driving the garbage routes this week with a chipper truck to collect branches, tree limbs, etc.",
+    "source": "City of SCS — City News"
+  },
+  {
     "id": "https://www.scsmi.net/CivicAlerts.aspx?aid=981/639185861400000000",
     "title": "Library Renovation Updates",
     "link": "https://www.scsmi.net/CivicAlerts.aspx?aid=981",
@@ -789,14 +797,6 @@
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13233",
     "isoDate": "2025-11-24T14:09:35.000Z",
     "snippet": "Event date: May 17, 2026 Event Time: 08:00 AM - 12:00 PM Location: St. Clair Shores, MI 48081",
-    "source": "City of SCS — City Calendar"
-  },
-  {
-    "id": "https://www.scsmi.net/Calendar.aspx?EID=13232/638995685100000000",
-    "title": "I-94 Ramp Cleanup",
-    "link": "https://www.scsmi.net/Calendar.aspx?EID=13232",
-    "isoDate": "2025-11-24T14:08:30.000Z",
-    "snippet": "Event date: May 9, 2026 Event Time: 10:00 AM - 12:00 PM Location: St. Clair Shores, MI 48081",
     "source": "City of SCS — City Calendar"
   }
 ]
