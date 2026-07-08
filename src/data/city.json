@@ -728,6 +728,14 @@
     "source": "City of SCS — City Calendar"
   },
   {
+    "id": "https://www.scsmi.net/Calendar.aspx?EID=13247/638995699840000000",
+    "title": "Music by the Lake",
+    "link": "https://www.scsmi.net/Calendar.aspx?EID=13247",
+    "isoDate": "2025-11-24T14:33:04.000Z",
+    "snippet": "Event date: July 22, 2026 Event Time: 07:00 PM - 09:00 PM Location: 32400 Jefferson Ave. St. Clair Shores, MI 48081",
+    "source": "City of SCS — City Calendar"
+  },
+  {
     "id": "https://www.scsmi.net/Calendar.aspx?EID=13243/638995699840000000",
     "title": "Music by the Lake",
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13243",
@@ -789,14 +797,6 @@
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13235",
     "isoDate": "2025-11-24T14:14:16.000Z",
     "snippet": "Event date: May 17, 2026 Event Time: 09:00 AM - 02:00 PM Location: St. Clair Shores, MI 48081",
-    "source": "City of SCS — City Calendar"
-  },
-  {
-    "id": "https://www.scsmi.net/Calendar.aspx?EID=13233/638995685750000000",
-    "title": "Nautical Coast Clean-Up",
-    "link": "https://www.scsmi.net/Calendar.aspx?EID=13233",
-    "isoDate": "2025-11-24T14:09:35.000Z",
-    "snippet": "Event date: May 17, 2026 Event Time: 08:00 AM - 12:00 PM Location: St. Clair Shores, MI 48081",
     "source": "City of SCS — City Calendar"
   }
 ]
