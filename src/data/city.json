@@ -576,6 +576,14 @@
     "source": "City of SCS — City Calendar"
   },
   {
+    "id": "https://www.scsmi.net/Calendar.aspx?EID=13352/639004358470000000",
+    "title": "Sign Arbitration",
+    "link": "https://www.scsmi.net/Calendar.aspx?EID=13352",
+    "isoDate": "2025-12-04T15:04:07.000Z",
+    "snippet": "Event date: July 23, 2026 Event Time: 09:00 AM - 10:00 AM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
+    "source": "City of SCS — City Calendar"
+  },
+  {
     "id": "https://www.scsmi.net/Calendar.aspx?EID=13351/639004358470000000",
     "title": "Sign Arbitration",
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13351",
@@ -789,14 +797,6 @@
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13236",
     "isoDate": "2025-11-24T14:16:38.000Z",
     "snippet": "Event date: May 24, 2026 Event Time: 09:00 AM - 10:00 AM Location: 32400 Jefferson Ave. St. Clair Shores, MI 48081",
-    "source": "City of SCS — City Calendar"
-  },
-  {
-    "id": "https://www.scsmi.net/Calendar.aspx?EID=13235/638995688560000000",
-    "title": "Sunday Market",
-    "link": "https://www.scsmi.net/Calendar.aspx?EID=13235",
-    "isoDate": "2025-11-24T14:14:16.000Z",
-    "snippet": "Event date: May 17, 2026 Event Time: 09:00 AM - 02:00 PM Location: St. Clair Shores, MI 48081",
     "source": "City of SCS — City Calendar"
   }
 ]
