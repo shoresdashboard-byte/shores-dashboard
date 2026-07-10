@@ -1,5 +1,21 @@
 [
   {
+    "id": "https://www.scsmi.net/Calendar.aspx?EID=13364/639192737620000000",
+    "title": "Planning Commission",
+    "link": "https://www.scsmi.net/Calendar.aspx?EID=13364",
+    "isoDate": "2026-07-10T14:49:22.000Z",
+    "snippet": "Event date: July 14, 2026 Event Time: 07:00 PM - 10:00 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
+    "source": "City of SCS — City Calendar"
+  },
+  {
+    "id": "https://www.scsmi.net/CivicAlerts.aspx?aid=990/639192703980000000",
+    "title": "Jefferson Paving Has Begun!",
+    "link": "https://www.scsmi.net/CivicAlerts.aspx?aid=990",
+    "isoDate": "2026-07-10T13:53:18.000Z",
+    "snippet": "As part of the ongoing Jefferson Relief Sewer Project, paving operations on Jefferson Avenue between 9 Mile Road and Fresard Street are scheduled to begin today. The contractor is working from 9 Mile north to Fresard.",
+    "source": "City of SCS — City News"
+  },
+  {
     "id": "https://www.scsmi.net/CivicAlerts.aspx?aid=989/639189225070000000",
     "title": "Chipper Service for Storm Debris",
     "link": "https://www.scsmi.net/CivicAlerts.aspx?aid=989",
@@ -781,22 +797,6 @@
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13239",
     "isoDate": "2025-11-24T14:30:00.000Z",
     "snippet": "Event date: May 16, 2026 Event Time: 09:00 AM - 01:00 PM Location: 19700 Pleasant Dr. St. Clair Shores, MI 48081",
-    "source": "City of SCS — City Calendar"
-  },
-  {
-    "id": "https://www.scsmi.net/Calendar.aspx?EID=13238/638995696100000000",
-    "title": "Drive-In Movie",
-    "link": "https://www.scsmi.net/Calendar.aspx?EID=13238",
-    "isoDate": "2025-11-24T14:26:50.000Z",
-    "snippet": "Event date: May 29, 2026 Event Time: 09:00 PM - 10:30 PM Location: 32400 Jefferson Ave. St. Clair Shores, MI 48081",
-    "source": "City of SCS — City Calendar"
-  },
-  {
-    "id": "https://www.scsmi.net/Calendar.aspx?EID=13236/638995689980000000",
-    "title": "Veterans Memorial Service",
-    "link": "https://www.scsmi.net/Calendar.aspx?EID=13236",
-    "isoDate": "2025-11-24T14:16:38.000Z",
-    "snippet": "Event date: May 24, 2026 Event Time: 09:00 AM - 10:00 AM Location: 32400 Jefferson Ave. St. Clair Shores, MI 48081",
     "source": "City of SCS — City Calendar"
   }
 ]
