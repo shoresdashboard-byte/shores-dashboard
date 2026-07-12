@@ -160,6 +160,14 @@
     "source": "City of SCS — City Calendar"
   },
   {
+    "id": "https://www.scsmi.net/Calendar.aspx?EID=13541/639165918660000000",
+    "title": "Sunday Market in Downtown SCS",
+    "link": "https://www.scsmi.net/Calendar.aspx?EID=13541",
+    "isoDate": "2026-06-09T13:51:06.000Z",
+    "snippet": "Event date: July 26, 2026 Event Time: 09:00 AM - 02:00 PM Location: St. Clair Shores, MI 48081",
+    "source": "City of SCS — City Calendar"
+  },
+  {
     "id": "https://www.scsmi.net/Calendar.aspx?EID=13540/639165918660000000",
     "title": "Sunday Market in Downtown SCS",
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13540",
@@ -728,6 +736,14 @@
     "source": "City of SCS — City Calendar"
   },
   {
+    "id": "https://www.scsmi.net/Calendar.aspx?EID=13263/638995706630000000",
+    "title": "Early Voting",
+    "link": "https://www.scsmi.net/Calendar.aspx?EID=13263",
+    "isoDate": "2025-11-24T14:44:23.000Z",
+    "snippet": "Event date: July 26, 2026 Event Time: 08:30 AM - 04:30 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
+    "source": "City of SCS — City Calendar"
+  },
+  {
     "id": "https://www.scsmi.net/Calendar.aspx?EID=13255/638995704130000000",
     "title": "Chamber Concert",
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13255",
@@ -781,22 +797,6 @@
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13247",
     "isoDate": "2025-11-24T14:33:04.000Z",
     "snippet": "Event date: July 22, 2026 Event Time: 07:00 PM - 09:00 PM Location: 32400 Jefferson Ave. St. Clair Shores, MI 48081",
-    "source": "City of SCS — City Calendar"
-  },
-  {
-    "id": "https://www.scsmi.net/Calendar.aspx?EID=13245/638995699840000000",
-    "title": "Music by the Lake",
-    "link": "https://www.scsmi.net/Calendar.aspx?EID=13245",
-    "isoDate": "2025-11-24T14:33:04.000Z",
-    "snippet": "Event date: July 8, 2026 Event Time: 07:00 PM - 09:00 PM Location: 32400 Jefferson Ave. St. Clair Shores, MI 48081",
-    "source": "City of SCS — City Calendar"
-  },
-  {
-    "id": "https://www.scsmi.net/Calendar.aspx?EID=13243/638995699840000000",
-    "title": "Music by the Lake",
-    "link": "https://www.scsmi.net/Calendar.aspx?EID=13243",
-    "isoDate": "2025-11-24T14:33:04.000Z",
-    "snippet": "Event date: June 24, 2026 Event Time: 07:00 PM - 09:00 PM Location: 32400 Jefferson Ave. St. Clair Shores, MI 48081",
     "source": "City of SCS — City Calendar"
   }
 ]
