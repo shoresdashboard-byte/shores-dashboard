@@ -768,6 +768,14 @@
     "source": "City of SCS — City Calendar"
   },
   {
+    "id": "https://www.scsmi.net/Calendar.aspx?EID=13266/638995706630000000",
+    "title": "Early Voting",
+    "link": "https://www.scsmi.net/Calendar.aspx?EID=13266",
+    "isoDate": "2025-11-24T14:44:23.000Z",
+    "snippet": "Event date: July 29, 2026 Event Time: 08:30 AM - 04:30 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
+    "source": "City of SCS — City Calendar"
+  },
+  {
     "id": "https://www.scsmi.net/Calendar.aspx?EID=13256/638995704130000000",
     "title": "Chamber Concert",
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13256",
@@ -789,14 +797,6 @@
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13255",
     "isoDate": "2025-11-24T14:40:13.000Z",
     "snippet": "Event date: July 13, 2026 Event Time: 07:00 PM - 08:00 PM Location: 24800 Jefferson Ave. St. Clair Shores, MI 48081",
-    "source": "City of SCS — City Calendar"
-  },
-  {
-    "id": "https://www.scsmi.net/Calendar.aspx?EID=13254/638995704130000000",
-    "title": "Chamber Concert",
-    "link": "https://www.scsmi.net/Calendar.aspx?EID=13254",
-    "isoDate": "2025-11-24T14:40:13.000Z",
-    "snippet": "Event date: July 6, 2026 Event Time: 07:00 PM - 08:00 PM Location: 24800 Jefferson Ave. St. Clair Shores, MI 48081",
     "source": "City of SCS — City Calendar"
   }
 ]
