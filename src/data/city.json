@@ -1,5 +1,13 @@
 [
   {
+    "id": "https://www.scsmi.net/Calendar.aspx?EID=13352/639198831240000000",
+    "title": "Sign Arbitration",
+    "link": "https://www.scsmi.net/Calendar.aspx?EID=13352",
+    "isoDate": "2026-07-17T16:05:24.000Z",
+    "snippet": "Event date: July 23, 2026 Event Time: 09:00 AM - 10:00 AM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
+    "source": "City of SCS — City Calendar"
+  },
+  {
     "id": "https://www.scsmi.net/Calendar.aspx?EID=13364/639192907660000000",
     "title": "Planning Commission - Cancelled",
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13364",
@@ -789,14 +797,6 @@
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13267",
     "isoDate": "2025-11-24T14:44:23.000Z",
     "snippet": "Event date: July 30, 2026 Event Time: 08:30 AM - 04:30 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
-    "source": "City of SCS — City Calendar"
-  },
-  {
-    "id": "https://www.scsmi.net/Calendar.aspx?EID=13268/638995706630000000",
-    "title": "Early Voting",
-    "link": "https://www.scsmi.net/Calendar.aspx?EID=13268",
-    "isoDate": "2025-11-24T14:44:23.000Z",
-    "snippet": "Event date: July 31, 2026 Event Time: 08:30 AM - 04:30 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
     "source": "City of SCS — City Calendar"
   }
 ]
