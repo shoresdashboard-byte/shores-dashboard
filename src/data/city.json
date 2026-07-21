@@ -752,6 +752,14 @@
     "source": "City of SCS — City Calendar"
   },
   {
+    "id": "https://www.scsmi.net/Calendar.aspx?EID=13271/638995707780000000",
+    "title": "State Primary Election",
+    "link": "https://www.scsmi.net/Calendar.aspx?EID=13271",
+    "isoDate": "2025-11-24T14:46:18.000Z",
+    "snippet": "Event date: August 4, 2026 Event Time: 07:00 AM - 08:00 PM Location: St. Clair Shores, MI 48081",
+    "source": "City of SCS — City Calendar"
+  },
+  {
     "id": "https://www.scsmi.net/Calendar.aspx?EID=13262/638995706630000000",
     "title": "Early Voting",
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13262",
@@ -789,14 +797,6 @@
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13266",
     "isoDate": "2025-11-24T14:44:23.000Z",
     "snippet": "Event date: July 29, 2026 Event Time: 08:30 AM - 04:30 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
-    "source": "City of SCS — City Calendar"
-  },
-  {
-    "id": "https://www.scsmi.net/Calendar.aspx?EID=13267/638995706630000000",
-    "title": "Early Voting",
-    "link": "https://www.scsmi.net/Calendar.aspx?EID=13267",
-    "isoDate": "2025-11-24T14:44:23.000Z",
-    "snippet": "Event date: July 30, 2026 Event Time: 08:30 AM - 04:30 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
     "source": "City of SCS — City Calendar"
   }
 ]
