@@ -384,6 +384,14 @@
     "source": "City of SCS — City Calendar"
   },
   {
+    "id": "https://www.scsmi.net/Calendar.aspx?EID=13488/639136516300000000",
+    "title": "Community Garden Committee Meeting",
+    "link": "https://www.scsmi.net/Calendar.aspx?EID=13488",
+    "isoDate": "2026-05-06T13:07:10.000Z",
+    "snippet": "Event date: August 5, 2026 Event Time: 07:30 PM - 08:30 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
+    "source": "City of SCS — City Calendar"
+  },
+  {
     "id": "https://www.scsmi.net/Calendar.aspx?EID=13487/639136516300000000",
     "title": "Community Garden Committee Meeting",
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13487",
@@ -789,14 +797,6 @@
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13265",
     "isoDate": "2025-11-24T14:44:23.000Z",
     "snippet": "Event date: July 28, 2026 Event Time: 08:30 AM - 04:30 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
-    "source": "City of SCS — City Calendar"
-  },
-  {
-    "id": "https://www.scsmi.net/Calendar.aspx?EID=13266/638995706630000000",
-    "title": "Early Voting",
-    "link": "https://www.scsmi.net/Calendar.aspx?EID=13266",
-    "isoDate": "2025-11-24T14:44:23.000Z",
-    "snippet": "Event date: July 29, 2026 Event Time: 08:30 AM - 04:30 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
     "source": "City of SCS — City Calendar"
   }
 ]
