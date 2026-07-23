@@ -696,6 +696,14 @@
     "source": "City of SCS — City Calendar"
   },
   {
+    "id": "https://www.scsmi.net/Calendar.aspx?EID=13329/639004340290000000",
+    "title": "Zoning Board of Appeals",
+    "link": "https://www.scsmi.net/Calendar.aspx?EID=13329",
+    "isoDate": "2025-12-04T14:33:49.000Z",
+    "snippet": "Event date: August 6, 2026 Event Time: 07:00 PM - 10:00 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
+    "source": "City of SCS — City Calendar"
+  },
+  {
     "id": "https://www.scsmi.net/Calendar.aspx?EID=13327/639004340290000000",
     "title": "Zoning Board of Appeals",
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13327",
@@ -789,14 +797,6 @@
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13264",
     "isoDate": "2025-11-24T14:44:23.000Z",
     "snippet": "Event date: July 27, 2026 Event Time: 08:30 AM - 04:30 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
-    "source": "City of SCS — City Calendar"
-  },
-  {
-    "id": "https://www.scsmi.net/Calendar.aspx?EID=13265/638995706630000000",
-    "title": "Early Voting",
-    "link": "https://www.scsmi.net/Calendar.aspx?EID=13265",
-    "isoDate": "2025-11-24T14:44:23.000Z",
-    "snippet": "Event date: July 28, 2026 Event Time: 08:30 AM - 04:30 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
     "source": "City of SCS — City Calendar"
   }
 ]
