@@ -208,6 +208,14 @@
     "source": "City of SCS — City Calendar"
   },
   {
+    "id": "https://www.scsmi.net/Calendar.aspx?EID=13532/639165915020000000",
+    "title": "Downtown Social District",
+    "link": "https://www.scsmi.net/Calendar.aspx?EID=13532",
+    "isoDate": "2026-06-09T13:45:02.000Z",
+    "snippet": "Event date: August 8, 2026 Event Time: 05:00 PM - 11:55 PM Location: St. Clair Shores, MI 48081",
+    "source": "City of SCS — City Calendar"
+  },
+  {
     "id": "https://www.scsmi.net/Calendar.aspx?EID=13531/639165915020000000",
     "title": "Downtown Social District",
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13531",
@@ -752,11 +760,27 @@
     "source": "City of SCS — City Calendar"
   },
   {
+    "id": "https://www.scsmi.net/Calendar.aspx?EID=13278/638995716150000000",
+    "title": "Dog Days of Summer",
+    "link": "https://www.scsmi.net/Calendar.aspx?EID=13278",
+    "isoDate": "2025-11-24T15:00:15.000Z",
+    "snippet": "Event date: August 8, 2026 Event Time: 12:00 PM - 09:00 PM Location: 24800 Jefferson Ave. St. Clair Shores, MI 48081",
+    "source": "City of SCS — City Calendar"
+  },
+  {
     "id": "https://www.scsmi.net/Calendar.aspx?EID=13277/638995712710000000",
     "title": "FirstState Bank Fireworks",
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13277",
     "isoDate": "2025-11-24T14:54:31.000Z",
     "snippet": "Event date: June 26, 2026 Event Time: 09:00 PM - 10:00 PM Location: 32400 Jefferson Ave. St. Clair Shores, MI 48081",
+    "source": "City of SCS — City Calendar"
+  },
+  {
+    "id": "https://www.scsmi.net/Calendar.aspx?EID=13274/638995710460000000",
+    "title": "I-94 Ramp Cleanup",
+    "link": "https://www.scsmi.net/Calendar.aspx?EID=13274",
+    "isoDate": "2025-11-24T14:50:46.000Z",
+    "snippet": "Event date: August 8, 2026 Event Time: 10:00 AM - 12:00 PM Location: St. Clair Shores, MI 48081",
     "source": "City of SCS — City Calendar"
   },
   {
@@ -773,30 +797,6 @@
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13272",
     "isoDate": "2025-11-24T14:50:46.000Z",
     "snippet": "Event date: June 13, 2026 Event Time: 10:00 AM - 12:00 PM Location: St. Clair Shores, MI 48081",
-    "source": "City of SCS — City Calendar"
-  },
-  {
-    "id": "https://www.scsmi.net/Calendar.aspx?EID=13271/638995707780000000",
-    "title": "State Primary Election",
-    "link": "https://www.scsmi.net/Calendar.aspx?EID=13271",
-    "isoDate": "2025-11-24T14:46:18.000Z",
-    "snippet": "Event date: August 4, 2026 Event Time: 07:00 AM - 08:00 PM Location: St. Clair Shores, MI 48081",
-    "source": "City of SCS — City Calendar"
-  },
-  {
-    "id": "https://www.scsmi.net/Calendar.aspx?EID=13262/638995706630000000",
-    "title": "Early Voting",
-    "link": "https://www.scsmi.net/Calendar.aspx?EID=13262",
-    "isoDate": "2025-11-24T14:44:23.000Z",
-    "snippet": "Event date: July 25, 2026 Event Time: 08:30 AM - 04:30 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
-    "source": "City of SCS — City Calendar"
-  },
-  {
-    "id": "https://www.scsmi.net/Calendar.aspx?EID=13263/638995706630000000",
-    "title": "Early Voting",
-    "link": "https://www.scsmi.net/Calendar.aspx?EID=13263",
-    "isoDate": "2025-11-24T14:44:23.000Z",
-    "snippet": "Event date: July 26, 2026 Event Time: 08:30 AM - 04:30 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
     "source": "City of SCS — City Calendar"
   }
 ]
