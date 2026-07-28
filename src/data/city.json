@@ -1,5 +1,13 @@
 [
   {
+    "id": "https://www.scsmi.net/CivicAlerts.aspx?aid=992/639208399200000000",
+    "title": "Library Renovation Updates",
+    "link": "https://www.scsmi.net/CivicAlerts.aspx?aid=992",
+    "isoDate": "2026-07-28T17:52:00.000Z",
+    "snippet": "",
+    "source": "City of SCS — City News"
+  },
+  {
     "id": "https://www.scsmi.net/CivicAlerts.aspx?aid=988/639208259110000000",
     "title": "Annual City Wide Garage Sale Returns August 14-16",
     "link": "https://www.scsmi.net/CivicAlerts.aspx?aid=988",
@@ -789,14 +797,6 @@
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13293",
     "isoDate": "2025-12-02T15:02:17.000Z",
     "snippet": "Event date: July 30, 2026 Event Time: 04:00 PM - 04:30 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
-    "source": "City of SCS — City Calendar"
-  },
-  {
-    "id": "https://www.scsmi.net/Calendar.aspx?EID=13292/639002629370000000",
-    "title": "Police and Fire Pension/Health Care Meeting",
-    "link": "https://www.scsmi.net/Calendar.aspx?EID=13292",
-    "isoDate": "2025-12-02T15:02:17.000Z",
-    "snippet": "Event date: June 25, 2026 Event Time: 04:00 PM - 04:30 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
     "source": "City of SCS — City Calendar"
   }
 ]
