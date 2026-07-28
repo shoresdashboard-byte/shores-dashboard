@@ -1,5 +1,29 @@
 [
   {
+    "id": "https://www.scsmi.net/CivicAlerts.aspx?aid=988/639208259110000000",
+    "title": "Annual City Wide Garage Sale Returns August 14-16",
+    "link": "https://www.scsmi.net/CivicAlerts.aspx?aid=988",
+    "isoDate": "2026-07-28T13:58:31.000Z",
+    "snippet": "The annual City Wide Garage Sale is returning for 2026! It'll be held the weekend of Friday, August 14-Sunday, August 16 and run once again by the Cool City Committee. Follow their Facebook Page for updates and more announcements.",
+    "source": "City of SCS — City News"
+  },
+  {
+    "id": "https://www.scsmi.net/CivicAlerts.aspx?aid=991/639208258440000000",
+    "title": "Jefferson Project in its final phase!",
+    "link": "https://www.scsmi.net/CivicAlerts.aspx?aid=991",
+    "isoDate": "2026-07-28T13:57:24.000Z",
+    "snippet": "The Southeast Macomb Sanitary District (SEMSD) Jefferson Relief Sewer Project is entering its final phase of tunneling next week along Jefferson Avenue. The remaining tunneling work is expected to be completed by January.",
+    "source": "City of SCS — City News"
+  },
+  {
+    "id": "https://www.scsmi.net/CivicAlerts.aspx?aid=990/639208255430000000",
+    "title": "Jefferson Paving Has Begun!",
+    "link": "https://www.scsmi.net/CivicAlerts.aspx?aid=990",
+    "isoDate": "2026-07-28T13:52:23.000Z",
+    "snippet": "As part of the ongoing Jefferson Relief Sewer Project, paving operations on Jefferson Avenue between 9 Mile Road and Fresard Street are scheduled to begin today. The contractor is working from 9 Mile north to Fresard.",
+    "source": "City of SCS — City News"
+  },
+  {
     "id": "https://www.scsmi.net/Calendar.aspx?EID=13329/639204135490000000",
     "title": "Zoning Board of Appeals",
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13329",
@@ -773,30 +797,6 @@
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13292",
     "isoDate": "2025-12-02T15:02:17.000Z",
     "snippet": "Event date: June 25, 2026 Event Time: 04:00 PM - 04:30 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
-    "source": "City of SCS — City Calendar"
-  },
-  {
-    "id": "https://www.scsmi.net/Calendar.aspx?EID=13291/639002629370000000",
-    "title": "Police and Fire Pension/Health Care Meeting",
-    "link": "https://www.scsmi.net/Calendar.aspx?EID=13291",
-    "isoDate": "2025-12-02T15:02:17.000Z",
-    "snippet": "Event date: May 28, 2026 Event Time: 04:00 PM - 04:30 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
-    "source": "City of SCS — City Calendar"
-  },
-  {
-    "id": "https://www.scsmi.net/Calendar.aspx?EID=13278/638995716150000000",
-    "title": "Dog Days of Summer",
-    "link": "https://www.scsmi.net/Calendar.aspx?EID=13278",
-    "isoDate": "2025-11-24T15:00:15.000Z",
-    "snippet": "Event date: August 8, 2026 Event Time: 12:00 PM - 09:00 PM Location: 24800 Jefferson Ave. St. Clair Shores, MI 48081",
-    "source": "City of SCS — City Calendar"
-  },
-  {
-    "id": "https://www.scsmi.net/Calendar.aspx?EID=13277/638995712710000000",
-    "title": "FirstState Bank Fireworks",
-    "link": "https://www.scsmi.net/Calendar.aspx?EID=13277",
-    "isoDate": "2025-11-24T14:54:31.000Z",
-    "snippet": "Event date: June 26, 2026 Event Time: 09:00 PM - 10:00 PM Location: 32400 Jefferson Ave. St. Clair Shores, MI 48081",
     "source": "City of SCS — City Calendar"
   }
 ]
