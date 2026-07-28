@@ -616,6 +616,14 @@
     "source": "City of SCS — City Calendar"
   },
   {
+    "id": "https://www.scsmi.net/Calendar.aspx?EID=13418/639004393860000000",
+    "title": "Building/Property Maintenance Board",
+    "link": "https://www.scsmi.net/Calendar.aspx?EID=13418",
+    "isoDate": "2025-12-04T16:03:06.000Z",
+    "snippet": "Event date: August 11, 2026 Event Time: 04:00 PM - 05:00 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
+    "source": "City of SCS — City Calendar"
+  },
+  {
     "id": "https://www.scsmi.net/Calendar.aspx?EID=13417/639004393860000000",
     "title": "Building/Property Maintenance Board",
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13417",
@@ -645,6 +653,14 @@
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13374",
     "isoDate": "2025-12-04T15:30:46.000Z",
     "snippet": "Event date: May 26, 2026 Event Time: 07:00 PM - 10:00 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
+    "source": "City of SCS — City Calendar"
+  },
+  {
+    "id": "https://www.scsmi.net/Calendar.aspx?EID=13365/639004370660000000",
+    "title": "Planning Commission",
+    "link": "https://www.scsmi.net/Calendar.aspx?EID=13365",
+    "isoDate": "2025-12-04T15:24:26.000Z",
+    "snippet": "Event date: August 11, 2026 Event Time: 07:00 PM - 10:00 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
     "source": "City of SCS — City Calendar"
   },
   {
@@ -728,6 +744,14 @@
     "source": "City of SCS — City Calendar"
   },
   {
+    "id": "https://www.scsmi.net/Calendar.aspx?EID=13317/639004334270000000",
+    "title": "Water Resources Development and Advisory Board Meeting",
+    "link": "https://www.scsmi.net/Calendar.aspx?EID=13317",
+    "isoDate": "2025-12-04T14:23:47.000Z",
+    "snippet": "Event date: August 11, 2026 Event Time: 07:00 PM - 09:00 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
+    "source": "City of SCS — City Calendar"
+  },
+  {
     "id": "https://www.scsmi.net/Calendar.aspx?EID=13316/639004333560000000",
     "title": "Water Resources Development and Advisory Board Meeting",
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13316",
@@ -773,30 +797,6 @@
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13277",
     "isoDate": "2025-11-24T14:54:31.000Z",
     "snippet": "Event date: June 26, 2026 Event Time: 09:00 PM - 10:00 PM Location: 32400 Jefferson Ave. St. Clair Shores, MI 48081",
-    "source": "City of SCS — City Calendar"
-  },
-  {
-    "id": "https://www.scsmi.net/Calendar.aspx?EID=13274/638995710460000000",
-    "title": "I-94 Ramp Cleanup",
-    "link": "https://www.scsmi.net/Calendar.aspx?EID=13274",
-    "isoDate": "2025-11-24T14:50:46.000Z",
-    "snippet": "Event date: August 8, 2026 Event Time: 10:00 AM - 12:00 PM Location: St. Clair Shores, MI 48081",
-    "source": "City of SCS — City Calendar"
-  },
-  {
-    "id": "https://www.scsmi.net/Calendar.aspx?EID=13273/638995710460000000",
-    "title": "I-94 Ramp Cleanup",
-    "link": "https://www.scsmi.net/Calendar.aspx?EID=13273",
-    "isoDate": "2025-11-24T14:50:46.000Z",
-    "snippet": "Event date: July 11, 2026 Event Time: 10:00 AM - 12:00 PM Location: St. Clair Shores, MI 48081",
-    "source": "City of SCS — City Calendar"
-  },
-  {
-    "id": "https://www.scsmi.net/Calendar.aspx?EID=13272/638995710460000000",
-    "title": "I-94 Ramp Cleanup",
-    "link": "https://www.scsmi.net/Calendar.aspx?EID=13272",
-    "isoDate": "2025-11-24T14:50:46.000Z",
-    "snippet": "Event date: June 13, 2026 Event Time: 10:00 AM - 12:00 PM Location: St. Clair Shores, MI 48081",
     "source": "City of SCS — City Calendar"
   }
 ]
