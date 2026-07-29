@@ -552,6 +552,14 @@
     "source": "City of SCS — City Calendar"
   },
   {
+    "id": "https://www.scsmi.net/Calendar.aspx?EID=13477/639017280960000000",
+    "title": "Beautification Commission Meeting",
+    "link": "https://www.scsmi.net/Calendar.aspx?EID=13477",
+    "isoDate": "2025-12-19T14:01:36.000Z",
+    "snippet": "Event date: August 12, 2026 Event Time: 06:00 PM - 07:00 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
+    "source": "City of SCS — City Calendar"
+  },
+  {
     "id": "https://www.scsmi.net/Calendar.aspx?EID=13476/639017280220000000",
     "title": "Beautification Commission Meeting",
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13476",
@@ -736,6 +744,14 @@
     "source": "City of SCS — City Calendar"
   },
   {
+    "id": "https://www.scsmi.net/Calendar.aspx?EID=13341/639004343090000000",
+    "title": "Downtown Development Authority",
+    "link": "https://www.scsmi.net/Calendar.aspx?EID=13341",
+    "isoDate": "2025-12-04T14:38:29.000Z",
+    "snippet": "Event date: August 12, 2026 Event Time: 10:00 AM - 11:30 AM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
+    "source": "City of SCS — City Calendar"
+  },
+  {
     "id": "https://www.scsmi.net/Calendar.aspx?EID=13340/639004343090000000",
     "title": "Downtown Development Authority",
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13340",
@@ -781,22 +797,6 @@
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13317",
     "isoDate": "2025-12-04T14:23:47.000Z",
     "snippet": "Event date: August 11, 2026 Event Time: 07:00 PM - 09:00 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
-    "source": "City of SCS — City Calendar"
-  },
-  {
-    "id": "https://www.scsmi.net/Calendar.aspx?EID=13316/639004333560000000",
-    "title": "Water Resources Development and Advisory Board Meeting",
-    "link": "https://www.scsmi.net/Calendar.aspx?EID=13316",
-    "isoDate": "2025-12-04T14:22:36.000Z",
-    "snippet": "Event date: July 7, 2026 Event Time: 07:00 PM - 09:00 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
-    "source": "City of SCS — City Calendar"
-  },
-  {
-    "id": "https://www.scsmi.net/Calendar.aspx?EID=13293/639002629370000000",
-    "title": "Police and Fire Pension/Health Care Meeting",
-    "link": "https://www.scsmi.net/Calendar.aspx?EID=13293",
-    "isoDate": "2025-12-02T15:02:17.000Z",
-    "snippet": "Event date: July 30, 2026 Event Time: 04:00 PM - 04:30 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
     "source": "City of SCS — City Calendar"
   }
 ]
