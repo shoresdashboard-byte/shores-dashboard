@@ -640,6 +640,14 @@
     "source": "City of SCS — City Calendar"
   },
   {
+    "id": "https://www.scsmi.net/Calendar.aspx?EID=13431/639004400510000000",
+    "title": "Fence Arbitration",
+    "link": "https://www.scsmi.net/Calendar.aspx?EID=13431",
+    "isoDate": "2025-12-04T16:14:11.000Z",
+    "snippet": "Event date: August 19, 2026 Event Time: 02:00 PM - 03:00 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
+    "source": "City of SCS — City Calendar"
+  },
+  {
     "id": "https://www.scsmi.net/Calendar.aspx?EID=13430/639004400510000000",
     "title": "Fence Arbitration",
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13430",
@@ -789,14 +797,6 @@
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13329",
     "isoDate": "2025-12-04T14:33:49.000Z",
     "snippet": "Event date: August 6, 2026 Event Time: 07:00 PM - 10:00 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
-    "source": "City of SCS — City Calendar"
-  },
-  {
-    "id": "https://www.scsmi.net/Calendar.aspx?EID=13327/639004340290000000",
-    "title": "Zoning Board of Appeals",
-    "link": "https://www.scsmi.net/Calendar.aspx?EID=13327",
-    "isoDate": "2025-12-04T14:33:49.000Z",
-    "snippet": "Event date: June 4, 2026 Event Time: 07:00 PM - 10:00 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
     "source": "City of SCS — City Calendar"
   }
 ]
