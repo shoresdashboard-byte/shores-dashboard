@@ -592,6 +592,14 @@
     "source": "City of SCS — City Calendar"
   },
   {
+    "id": "https://www.scsmi.net/Calendar.aspx?EID=13463/639007875660000000",
+    "title": "Library Board Meeting",
+    "link": "https://www.scsmi.net/Calendar.aspx?EID=13463",
+    "isoDate": "2025-12-08T16:46:06.000Z",
+    "snippet": "Event date: August 20, 2026 Event Time: 09:30 AM - 10:30 AM Location: 22500 11 Mile Road St. Clair Shores, MI 48081",
+    "source": "City of SCS — City Calendar"
+  },
+  {
     "id": "https://www.scsmi.net/Calendar.aspx?EID=13462/639007875660000000",
     "title": "Library Board Meeting",
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13462",
@@ -789,14 +797,6 @@
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13338",
     "isoDate": "2025-12-04T14:38:29.000Z",
     "snippet": "Event date: May 13, 2026 Event Time: 10:00 AM - 11:30 AM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
-    "source": "City of SCS — City Calendar"
-  },
-  {
-    "id": "https://www.scsmi.net/Calendar.aspx?EID=13329/639004340290000000",
-    "title": "Zoning Board of Appeals",
-    "link": "https://www.scsmi.net/Calendar.aspx?EID=13329",
-    "isoDate": "2025-12-04T14:33:49.000Z",
-    "snippet": "Event date: August 6, 2026 Event Time: 07:00 PM - 10:00 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
     "source": "City of SCS — City Calendar"
   }
 ]
