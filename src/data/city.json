@@ -248,6 +248,14 @@
     "source": "City of SCS — City Calendar"
   },
   {
+    "id": "https://www.scsmi.net/Calendar.aspx?EID=13537/639165915450000000",
+    "title": "Downtown Social District",
+    "link": "https://www.scsmi.net/Calendar.aspx?EID=13537",
+    "isoDate": "2026-06-09T13:45:45.000Z",
+    "snippet": "Event date: August 22, 2026 Event Time: 05:00 PM - 11:55 PM Location: St. Clair Shores, MI 48081",
+    "source": "City of SCS — City Calendar"
+  },
+  {
     "id": "https://www.scsmi.net/Calendar.aspx?EID=13536/639165915450000000",
     "title": "Downtown Social District",
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13536",
@@ -789,14 +797,6 @@
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13341",
     "isoDate": "2025-12-04T14:38:29.000Z",
     "snippet": "Event date: August 12, 2026 Event Time: 10:00 AM - 11:30 AM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
-    "source": "City of SCS — City Calendar"
-  },
-  {
-    "id": "https://www.scsmi.net/Calendar.aspx?EID=13340/639004343090000000",
-    "title": "Downtown Development Authority",
-    "link": "https://www.scsmi.net/Calendar.aspx?EID=13340",
-    "isoDate": "2025-12-04T14:38:29.000Z",
-    "snippet": "Event date: July 8, 2026 Event Time: 10:00 AM - 11:30 AM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
     "source": "City of SCS — City Calendar"
   }
 ]
