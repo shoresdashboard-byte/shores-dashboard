@@ -232,6 +232,14 @@
     "source": "City of SCS — City Calendar"
   },
   {
+    "id": "https://www.scsmi.net/Calendar.aspx?EID=13542/639165918660000000",
+    "title": "Sunday Market in Downtown SCS",
+    "link": "https://www.scsmi.net/Calendar.aspx?EID=13542",
+    "isoDate": "2026-06-09T13:51:06.000Z",
+    "snippet": "Event date: August 23, 2026 Event Time: 09:00 AM - 02:00 PM Location: St. Clair Shores, MI 48081",
+    "source": "City of SCS — City Calendar"
+  },
+  {
     "id": "https://www.scsmi.net/Calendar.aspx?EID=13541/639165918660000000",
     "title": "Sunday Market in Downtown SCS",
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13541",
@@ -789,14 +797,6 @@
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13350",
     "isoDate": "2025-12-04T15:04:07.000Z",
     "snippet": "Event date: May 28, 2026 Event Time: 09:00 AM - 10:00 AM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
-    "source": "City of SCS — City Calendar"
-  },
-  {
-    "id": "https://www.scsmi.net/Calendar.aspx?EID=13341/639004343090000000",
-    "title": "Downtown Development Authority",
-    "link": "https://www.scsmi.net/Calendar.aspx?EID=13341",
-    "isoDate": "2025-12-04T14:38:29.000Z",
-    "snippet": "Event date: August 12, 2026 Event Time: 10:00 AM - 11:30 AM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
     "source": "City of SCS — City Calendar"
   }
 ]
