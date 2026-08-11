@@ -568,6 +568,14 @@
     "source": "City of SCS — City Calendar"
   },
   {
+    "id": "https://www.scsmi.net/Calendar.aspx?EID=13502/639017284550000000",
+    "title": "Cool City Committee",
+    "link": "https://www.scsmi.net/Calendar.aspx?EID=13502",
+    "isoDate": "2025-12-19T14:07:35.000Z",
+    "snippet": "Event date: August 25, 2026 Event Time: 06:30 PM - 11:59 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
+    "source": "City of SCS — City Calendar"
+  },
+  {
     "id": "https://www.scsmi.net/Calendar.aspx?EID=13501/639017284550000000",
     "title": "Cool City Committee",
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13501",
@@ -736,6 +744,14 @@
     "source": "City of SCS — City Calendar"
   },
   {
+    "id": "https://www.scsmi.net/Calendar.aspx?EID=13377/639004374460000000",
+    "title": "Planning Commission",
+    "link": "https://www.scsmi.net/Calendar.aspx?EID=13377",
+    "isoDate": "2025-12-04T15:30:46.000Z",
+    "snippet": "Event date: August 25, 2026 Event Time: 07:00 PM - 10:00 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
+    "source": "City of SCS — City Calendar"
+  },
+  {
     "id": "https://www.scsmi.net/Calendar.aspx?EID=13375/639004374460000000",
     "title": "Planning Commission",
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13375",
@@ -781,22 +797,6 @@
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13352",
     "isoDate": "2025-12-04T15:04:07.000Z",
     "snippet": "Event date: July 23, 2026 Event Time: 09:00 AM - 10:00 AM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
-    "source": "City of SCS — City Calendar"
-  },
-  {
-    "id": "https://www.scsmi.net/Calendar.aspx?EID=13351/639004358470000000",
-    "title": "Sign Arbitration",
-    "link": "https://www.scsmi.net/Calendar.aspx?EID=13351",
-    "isoDate": "2025-12-04T15:04:07.000Z",
-    "snippet": "Event date: June 25, 2026 Event Time: 09:00 AM - 10:00 AM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
-    "source": "City of SCS — City Calendar"
-  },
-  {
-    "id": "https://www.scsmi.net/Calendar.aspx?EID=13350/639004358470000000",
-    "title": "Sign Arbitration",
-    "link": "https://www.scsmi.net/Calendar.aspx?EID=13350",
-    "isoDate": "2025-12-04T15:04:07.000Z",
-    "snippet": "Event date: May 28, 2026 Event Time: 09:00 AM - 10:00 AM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
     "source": "City of SCS — City Calendar"
   }
 ]
