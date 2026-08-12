@@ -16,6 +16,14 @@
     "source": "City of SCS — City Calendar"
   },
   {
+    "id": "https://www.scsmi.net/Calendar.aspx?EID=13547/639210797780000000",
+    "title": "Blood Drive at City Hall",
+    "link": "https://www.scsmi.net/Calendar.aspx?EID=13547",
+    "isoDate": "2026-07-31T12:29:38.000Z",
+    "snippet": "Event date: August 26, 2026 Event Time: 11:00 AM - 05:00 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
+    "source": "City of SCS — City Calendar"
+  },
+  {
     "id": "https://www.scsmi.net/Calendar.aspx?EID=13317/639209983130000000",
     "title": "Water Resources Development and Advisory Board Meeting",
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13317",
@@ -789,14 +797,6 @@
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13363",
     "isoDate": "2025-12-04T15:24:26.000Z",
     "snippet": "Event date: June 9, 2026 Event Time: 07:00 PM - 10:00 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
-    "source": "City of SCS — City Calendar"
-  },
-  {
-    "id": "https://www.scsmi.net/Calendar.aspx?EID=13352/639004358470000000",
-    "title": "Sign Arbitration",
-    "link": "https://www.scsmi.net/Calendar.aspx?EID=13352",
-    "isoDate": "2025-12-04T15:04:07.000Z",
-    "snippet": "Event date: July 23, 2026 Event Time: 09:00 AM - 10:00 AM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
     "source": "City of SCS — City Calendar"
   }
 ]
