@@ -1,5 +1,13 @@
 [
   {
+    "id": "https://www.scsmi.net/Calendar.aspx?EID=13353/639229052100000000",
+    "title": "Sign Arbitration - CANCELLED",
+    "link": "https://www.scsmi.net/Calendar.aspx?EID=13353",
+    "isoDate": "2026-08-21T15:33:30.000Z",
+    "snippet": "Event date: August 27, 2026 Event Time: 09:00 AM - 10:00 AM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
+    "source": "City of SCS — City Calendar"
+  },
+  {
     "id": "https://www.scsmi.net/Calendar.aspx?EID=13330/639229017920000000",
     "title": "Zoning Board of Appeals",
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13330",
@@ -789,14 +797,6 @@
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13418",
     "isoDate": "2025-12-04T16:03:06.000Z",
     "snippet": "Event date: August 11, 2026 Event Time: 04:00 PM - 05:00 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
-    "source": "City of SCS — City Calendar"
-  },
-  {
-    "id": "https://www.scsmi.net/Calendar.aspx?EID=13417/639004393860000000",
-    "title": "Building/Property Maintenance Board",
-    "link": "https://www.scsmi.net/Calendar.aspx?EID=13417",
-    "isoDate": "2025-12-04T16:03:06.000Z",
-    "snippet": "Event date: July 14, 2026 Event Time: 04:00 PM - 05:00 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
     "source": "City of SCS — City Calendar"
   }
 ]
