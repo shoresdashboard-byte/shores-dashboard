@@ -1,5 +1,13 @@
 [
   {
+    "id": "https://www.scsmi.net/Calendar.aspx?EID=13330/639229017920000000",
+    "title": "Zoning Board of Appeals",
+    "link": "https://www.scsmi.net/Calendar.aspx?EID=13330",
+    "isoDate": "2026-08-21T14:36:32.000Z",
+    "snippet": "Event date: September 3, 2026 Event Time: 07:00 PM - 10:00 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
+    "source": "City of SCS — City Calendar"
+  },
+  {
     "id": "https://www.scsmi.net/Calendar.aspx?EID=13514/639228353160000000",
     "title": "Milk River Drainage Board Meeting",
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13514",
@@ -789,14 +797,6 @@
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13417",
     "isoDate": "2025-12-04T16:03:06.000Z",
     "snippet": "Event date: July 14, 2026 Event Time: 04:00 PM - 05:00 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
-    "source": "City of SCS — City Calendar"
-  },
-  {
-    "id": "https://www.scsmi.net/Calendar.aspx?EID=13416/639004393860000000",
-    "title": "Building/Property Maintenance Board",
-    "link": "https://www.scsmi.net/Calendar.aspx?EID=13416",
-    "isoDate": "2025-12-04T16:03:06.000Z",
-    "snippet": "Event date: June 9, 2026 Event Time: 04:00 PM - 05:00 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
     "source": "City of SCS — City Calendar"
   }
 ]
