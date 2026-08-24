@@ -1,5 +1,45 @@
 [
   {
+    "id": "https://www.scsmi.net/Calendar.aspx?EID=13549/639231558530000000",
+    "title": "Townhall Meeting for the Reconstruction of Playview",
+    "link": "https://www.scsmi.net/Calendar.aspx?EID=13549",
+    "isoDate": "2026-08-24T13:10:53.000Z",
+    "snippet": "Event date: August 25, 2026 Event Time: 06:00 PM - 07:00 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
+    "source": "City of SCS — City Calendar"
+  },
+  {
+    "id": "https://www.scsmi.net/CivicAlerts.aspx?aid=987/639231557400000000",
+    "title": "Express Waste Contract Begins June 15",
+    "link": "https://www.scsmi.net/CivicAlerts.aspx?aid=987",
+    "isoDate": "2026-08-24T13:09:00.000Z",
+    "snippet": "The City is pleased to officially welcome Express Waste Services as the new trash collection provider for the community.",
+    "source": "City of SCS — City News"
+  },
+  {
+    "id": "https://www.scsmi.net/CivicAlerts.aspx?aid=986/639231557400000000",
+    "title": "Express Waste Services as New Trash Collection Provider",
+    "link": "https://www.scsmi.net/CivicAlerts.aspx?aid=986",
+    "isoDate": "2026-08-24T13:09:00.000Z",
+    "snippet": "At its June 1, 2026 meeting, the St. Clair Shores City Council approved a new solid waste collection agreement with Express Waste Services, concluding a comprehensive review process that began in 2025.",
+    "source": "City of SCS — City News"
+  },
+  {
+    "id": "https://www.scsmi.net/CivicAlerts.aspx?aid=993/639231556950000000",
+    "title": "TOWNHALL MEETING FOR THE RECONSTRUCTION OF PLAYVIEW",
+    "link": "https://www.scsmi.net/CivicAlerts.aspx?aid=993",
+    "isoDate": "2026-08-24T13:08:15.000Z",
+    "snippet": "Attention Playview Residents!",
+    "source": "City of SCS — City News"
+  },
+  {
+    "id": "https://www.scsmi.net/CivicAlerts.aspx?aid=991/639231556800000000",
+    "title": "Jefferson Project in its final phase!",
+    "link": "https://www.scsmi.net/CivicAlerts.aspx?aid=991",
+    "isoDate": "2026-08-24T13:08:00.000Z",
+    "snippet": "The Southeast Macomb Sanitary District (SEMSD) Jefferson Relief Sewer Project is entering its final phase of tunneling next week along Jefferson Avenue. The remaining tunneling work is expected to be completed by January.",
+    "source": "City of SCS — City News"
+  },
+  {
     "id": "https://www.scsmi.net/Calendar.aspx?EID=13353/639229052100000000",
     "title": "Sign Arbitration - CANCELLED",
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13353",
@@ -757,46 +797,6 @@
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13441",
     "isoDate": "2025-12-08T15:57:21.000Z",
     "snippet": "Event date: June 18, 2026 Event Time: 06:00 PM - 07:30 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
-    "source": "City of SCS — City Calendar"
-  },
-  {
-    "id": "https://www.scsmi.net/Calendar.aspx?EID=13431/639004400510000000",
-    "title": "Fence Arbitration",
-    "link": "https://www.scsmi.net/Calendar.aspx?EID=13431",
-    "isoDate": "2025-12-04T16:14:11.000Z",
-    "snippet": "Event date: August 19, 2026 Event Time: 02:00 PM - 03:00 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
-    "source": "City of SCS — City Calendar"
-  },
-  {
-    "id": "https://www.scsmi.net/Calendar.aspx?EID=13430/639004400510000000",
-    "title": "Fence Arbitration",
-    "link": "https://www.scsmi.net/Calendar.aspx?EID=13430",
-    "isoDate": "2025-12-04T16:14:11.000Z",
-    "snippet": "Event date: July 15, 2026 Event Time: 02:00 PM - 03:00 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
-    "source": "City of SCS — City Calendar"
-  },
-  {
-    "id": "https://www.scsmi.net/Calendar.aspx?EID=13429/639004400510000000",
-    "title": "Fence Arbitration",
-    "link": "https://www.scsmi.net/Calendar.aspx?EID=13429",
-    "isoDate": "2025-12-04T16:14:11.000Z",
-    "snippet": "Event date: June 17, 2026 Event Time: 02:00 PM - 03:00 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
-    "source": "City of SCS — City Calendar"
-  },
-  {
-    "id": "https://www.scsmi.net/Calendar.aspx?EID=13428/639004400510000000",
-    "title": "Fence Arbitration",
-    "link": "https://www.scsmi.net/Calendar.aspx?EID=13428",
-    "isoDate": "2025-12-04T16:14:11.000Z",
-    "snippet": "Event date: May 20, 2026 Event Time: 02:00 PM - 03:00 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
-    "source": "City of SCS — City Calendar"
-  },
-  {
-    "id": "https://www.scsmi.net/Calendar.aspx?EID=13418/639004393860000000",
-    "title": "Building/Property Maintenance Board",
-    "link": "https://www.scsmi.net/Calendar.aspx?EID=13418",
-    "isoDate": "2025-12-04T16:03:06.000Z",
-    "snippet": "Event date: August 11, 2026 Event Time: 04:00 PM - 05:00 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
     "source": "City of SCS — City Calendar"
   }
 ]
