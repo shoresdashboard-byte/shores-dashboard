@@ -1,5 +1,13 @@
 [
   {
+    "id": "https://www.scsmi.net/Calendar.aspx?EID=13294/639231671440000000",
+    "title": "Police and Fire Pension/Health Care Meeting",
+    "link": "https://www.scsmi.net/Calendar.aspx?EID=13294",
+    "isoDate": "2026-08-24T16:19:04.000Z",
+    "snippet": "Event date: August 27, 2026 Event Time: 04:00 PM - 04:30 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
+    "source": "City of SCS — City Calendar"
+  },
+  {
     "id": "https://www.scsmi.net/Calendar.aspx?EID=13549/639231558530000000",
     "title": "Townhall Meeting for the Reconstruction of Playview",
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13549",
@@ -789,14 +797,6 @@
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13449",
     "isoDate": "2025-12-08T16:26:12.000Z",
     "snippet": "Event date: June 2, 2026 Event Time: 07:00 PM - 08:00 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
-    "source": "City of SCS — City Calendar"
-  },
-  {
-    "id": "https://www.scsmi.net/Calendar.aspx?EID=13441/639007846410000000",
-    "title": "TIFA/Brownfield",
-    "link": "https://www.scsmi.net/Calendar.aspx?EID=13441",
-    "isoDate": "2025-12-08T15:57:21.000Z",
-    "snippet": "Event date: June 18, 2026 Event Time: 06:00 PM - 07:30 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
     "source": "City of SCS — City Calendar"
   }
 ]
