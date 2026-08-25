@@ -1,5 +1,13 @@
 [
   {
+    "id": "https://www.scsmi.net/Calendar.aspx?EID=13548/639232597000000000",
+    "title": "Downtown Development Authority - Special Meeting",
+    "link": "https://www.scsmi.net/Calendar.aspx?EID=13548",
+    "isoDate": "2026-08-25T18:01:40.000Z",
+    "snippet": "Event date: August 26, 2026 Event Time: 10:00 AM - 11:30 AM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
+    "source": "City of SCS — City Calendar"
+  },
+  {
     "id": "https://www.scsmi.net/Calendar.aspx?EID=13377/639232570040000000",
     "title": "Planning Commission - Cancelled",
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13377",
@@ -789,14 +797,6 @@
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13452",
     "isoDate": "2025-12-08T16:28:16.000Z",
     "snippet": "Event date: September 1, 2026 Event Time: 07:00 PM - 08:00 PM Location: 22500 11 Mile Road St. Clair Shores, MI 48081",
-    "source": "City of SCS — City Calendar"
-  },
-  {
-    "id": "https://www.scsmi.net/Calendar.aspx?EID=13450/639007864960000000",
-    "title": "Historical Commission Meeting",
-    "link": "https://www.scsmi.net/Calendar.aspx?EID=13450",
-    "isoDate": "2025-12-08T16:28:16.000Z",
-    "snippet": "Event date: July 7, 2026 Event Time: 07:00 PM - 08:00 PM Location: 22500 11 Mile Road St. Clair Shores, MI 48081",
     "source": "City of SCS — City Calendar"
   }
 ]
