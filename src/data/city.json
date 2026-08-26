@@ -760,6 +760,14 @@
     "source": "City of SCS — City Calendar"
   },
   {
+    "id": "https://www.scsmi.net/Calendar.aspx?EID=13478/639017279710000000",
+    "title": "Beautification Commission Meeting",
+    "link": "https://www.scsmi.net/Calendar.aspx?EID=13478",
+    "isoDate": "2025-12-19T13:59:31.000Z",
+    "snippet": "Event date: September 9, 2026 Event Time: 07:00 PM - 08:00 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
+    "source": "City of SCS — City Calendar"
+  },
+  {
     "id": "https://www.scsmi.net/Calendar.aspx?EID=13474/639017279710000000",
     "title": "Beautification Commission Meeting",
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13474",
@@ -789,14 +797,6 @@
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13461",
     "isoDate": "2025-12-08T16:41:05.000Z",
     "snippet": "Event date: June 18, 2026 Event Time: 09:30 AM - 10:30 AM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
-    "source": "City of SCS — City Calendar"
-  },
-  {
-    "id": "https://www.scsmi.net/Calendar.aspx?EID=13460/639007872650000000",
-    "title": "Library Board Meeting",
-    "link": "https://www.scsmi.net/Calendar.aspx?EID=13460",
-    "isoDate": "2025-12-08T16:41:05.000Z",
-    "snippet": "Event date: May 21, 2026 Event Time: 09:30 AM - 10:30 AM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
     "source": "City of SCS — City Calendar"
   }
 ]
