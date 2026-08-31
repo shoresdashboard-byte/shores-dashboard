@@ -1,5 +1,13 @@
 [
   {
+    "id": "https://www.scsmi.net/Calendar.aspx?EID=13563/639237882300000000",
+    "title": "Chamber Concert",
+    "link": "https://www.scsmi.net/Calendar.aspx?EID=13563",
+    "isoDate": "2026-08-31T20:50:30.000Z",
+    "snippet": "Event date: August 31, 2026 Event Time: 07:00 PM - 08:00 PM Location: 24800 Jefferson Ave. St. Clair Shores, MI 48081",
+    "source": "City of SCS — City Calendar"
+  },
+  {
     "id": "https://www.scsmi.net/Calendar.aspx?EID=13502/639232649300000000",
     "title": "Cool City Committee - Canceled",
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13502",
@@ -789,14 +797,6 @@
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13463",
     "isoDate": "2025-12-08T16:46:06.000Z",
     "snippet": "Event date: August 20, 2026 Event Time: 09:30 AM - 10:30 AM Location: 22500 11 Mile Road St. Clair Shores, MI 48081",
-    "source": "City of SCS — City Calendar"
-  },
-  {
-    "id": "https://www.scsmi.net/Calendar.aspx?EID=13462/639007875660000000",
-    "title": "Library Board Meeting",
-    "link": "https://www.scsmi.net/Calendar.aspx?EID=13462",
-    "isoDate": "2025-12-08T16:46:06.000Z",
-    "snippet": "Event date: July 16, 2026 Event Time: 09:30 AM - 10:30 AM Location: 22500 11 Mile Road St. Clair Shores, MI 48081",
     "source": "City of SCS — City Calendar"
   }
 ]
