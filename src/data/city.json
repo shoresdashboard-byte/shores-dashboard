@@ -1,5 +1,13 @@
 [
   {
+    "id": "https://www.scsmi.net/Calendar.aspx?EID=13342/639245424350000000",
+    "title": "Downtown Development Authority",
+    "link": "https://www.scsmi.net/Calendar.aspx?EID=13342",
+    "isoDate": "2026-09-09T14:20:35.000Z",
+    "snippet": "Event date: September 9, 2026 Event Time: 10:00 AM - 11:30 AM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
+    "source": "City of SCS — City Calendar"
+  },
+  {
     "id": "https://www.scsmi.net/Calendar.aspx?EID=13419/639239352680000000",
     "title": "Building/Property Maintenance Board - Cancelled",
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13419",
@@ -789,14 +797,6 @@
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13476",
     "isoDate": "2025-12-19T14:00:22.000Z",
     "snippet": "Event date: July 8, 2026 Event Time: 06:00 PM - 07:00 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
-    "source": "City of SCS — City Calendar"
-  },
-  {
-    "id": "https://www.scsmi.net/Calendar.aspx?EID=13475/639017280030000000",
-    "title": "Beautification Commission Meeting",
-    "link": "https://www.scsmi.net/Calendar.aspx?EID=13475",
-    "isoDate": "2025-12-19T14:00:03.000Z",
-    "snippet": "Event date: June 10, 2026 Event Time: 06:00 PM - 07:00 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
     "source": "City of SCS — City Calendar"
   }
 ]
