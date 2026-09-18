@@ -1,5 +1,13 @@
 [
   {
+    "id": "https://www.scsmi.net/Calendar.aspx?EID=13378/639253196690000000",
+    "title": "Planning Commission",
+    "link": "https://www.scsmi.net/Calendar.aspx?EID=13378",
+    "isoDate": "2026-09-18T14:14:29.000Z",
+    "snippet": "Event date: September 22, 2026 Event Time: 07:00 PM - 10:00 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
+    "source": "City of SCS — City Calendar"
+  },
+  {
     "id": "https://www.scsmi.net/Calendar.aspx?EID=13331/639251588670000000",
     "title": "Zoning Board of Appeals",
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13331",
@@ -789,14 +797,6 @@
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13501",
     "isoDate": "2025-12-19T14:07:35.000Z",
     "snippet": "Event date: July 28, 2026 Event Time: 06:30 PM - 11:59 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
-    "source": "City of SCS — City Calendar"
-  },
-  {
-    "id": "https://www.scsmi.net/Calendar.aspx?EID=13500/639017284550000000",
-    "title": "Cool City Committee",
-    "link": "https://www.scsmi.net/Calendar.aspx?EID=13500",
-    "isoDate": "2025-12-19T14:07:35.000Z",
-    "snippet": "Event date: June 23, 2026 Event Time: 06:30 PM - 11:59 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
     "source": "City of SCS — City Calendar"
   }
 ]
