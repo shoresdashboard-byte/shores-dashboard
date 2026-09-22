@@ -1,5 +1,13 @@
 [
   {
+    "id": "https://www.scsmi.net/Calendar.aspx?EID=13295/639256686930000000",
+    "title": "Police and Fire Pension/Health Care Meeting",
+    "link": "https://www.scsmi.net/Calendar.aspx?EID=13295",
+    "isoDate": "2026-09-22T15:11:33.000Z",
+    "snippet": "Event date: September 24, 2026 Event Time: 04:00 PM - 04:30 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
+    "source": "City of SCS — City Calendar"
+  },
+  {
     "id": "https://www.scsmi.net/Calendar.aspx?EID=13503/639255960790000000",
     "title": "Cool City Committee",
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13503",
@@ -789,14 +797,6 @@
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13513",
     "isoDate": "2026-01-02T18:17:08.000Z",
     "snippet": "Event date: June 25, 2026 Event Time: 10:00 AM - 01:00 PM Location: 20001 Pleasant St. St. Clair Shores, MI 48080",
-    "source": "City of SCS — City Calendar"
-  },
-  {
-    "id": "https://www.scsmi.net/Calendar.aspx?EID=13509/639017329140000000",
-    "title": "Animal Care & Welfare Committee Meeting",
-    "link": "https://www.scsmi.net/Calendar.aspx?EID=13509",
-    "isoDate": "2025-12-19T15:21:54.000Z",
-    "snippet": "Event date: July 14, 2026 Event Time: 12:00 AM - 11:59 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
     "source": "City of SCS — City Calendar"
   }
 ]
