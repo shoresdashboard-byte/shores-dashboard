@@ -704,6 +704,14 @@
     "source": "City of SCS — City Calendar"
   },
   {
+    "id": "https://www.scsmi.net/Calendar.aspx?EID=13490/639136516300000000",
+    "title": "Community Garden Committee Meeting",
+    "link": "https://www.scsmi.net/Calendar.aspx?EID=13490",
+    "isoDate": "2026-05-06T13:07:10.000Z",
+    "snippet": "Event date: October 7, 2026 Event Time: 07:30 PM - 08:30 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
+    "source": "City of SCS — City Calendar"
+  },
+  {
     "id": "https://www.scsmi.net/Calendar.aspx?EID=13489/639136516300000000",
     "title": "Community Garden Committee Meeting",
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13489",
@@ -752,6 +760,14 @@
     "source": "City of SCS — City Calendar"
   },
   {
+    "id": "https://www.scsmi.net/Calendar.aspx?EID=13438/639094265920000000",
+    "title": "Memorial Day Parade Committee Meeting",
+    "link": "https://www.scsmi.net/Calendar.aspx?EID=13438",
+    "isoDate": "2026-03-18T15:29:52.000Z",
+    "snippet": "Event date: October 7, 2026 Event Time: 06:30 PM - 07:30 PM Location: St. Clair Shores, MI 48081",
+    "source": "City of SCS — City Calendar"
+  },
+  {
     "id": "https://www.scsmi.net/Calendar.aspx?EID=13437/639094265710000000",
     "title": "Memorial Day Parade Committee Meeting",
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13437",
@@ -781,22 +797,6 @@
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13522",
     "isoDate": "2026-01-08T19:52:07.000Z",
     "snippet": "Event date: June 18, 2026 Event Time: 06:00 PM - 07:00 PM Location: 27600 Jefferson St. Clair Shores, MI 48081",
-    "source": "City of SCS — City Calendar"
-  },
-  {
-    "id": "https://www.scsmi.net/Calendar.aspx?EID=13521/639034771270000000",
-    "title": "Senior Advisory Committee",
-    "link": "https://www.scsmi.net/Calendar.aspx?EID=13521",
-    "isoDate": "2026-01-08T19:52:07.000Z",
-    "snippet": "Event date: May 21, 2026 Event Time: 06:00 PM - 07:00 PM Location: 27600 Jefferson St. Clair Shores, MI 48081",
-    "source": "City of SCS — City Calendar"
-  },
-  {
-    "id": "https://www.scsmi.net/Calendar.aspx?EID=13514/639029536270000000",
-    "title": "Milk River Drainage Board Meeting",
-    "link": "https://www.scsmi.net/Calendar.aspx?EID=13514",
-    "isoDate": "2026-01-02T18:27:07.000Z",
-    "snippet": "Event date: August 27, 2026 Event Time: 10:00 AM - 01:00 PM Location: 20001 Pleasant St. St. Clair Shores, MI 48080",
     "source": "City of SCS — City Calendar"
   }
 ]
