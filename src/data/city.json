@@ -504,6 +504,14 @@
     "source": "City of SCS — City Calendar"
   },
   {
+    "id": "https://www.scsmi.net/Calendar.aspx?EID=13534/639165915020000000",
+    "title": "Downtown Social District",
+    "link": "https://www.scsmi.net/Calendar.aspx?EID=13534",
+    "isoDate": "2026-06-09T13:45:02.000Z",
+    "snippet": "Event date: October 10, 2026 Event Time: 05:00 PM - 11:55 PM Location: St. Clair Shores, MI 48081",
+    "source": "City of SCS — City Calendar"
+  },
+  {
     "id": "https://www.scsmi.net/Calendar.aspx?EID=13533/639165915020000000",
     "title": "Downtown Social District",
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13533",
@@ -789,14 +797,6 @@
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13237",
     "isoDate": "2026-03-12T20:11:39.000Z",
     "snippet": "Event date: May 24, 2026 Event Time: 01:00 PM - 04:00 PM Location: St. Clair Shores, MI 48081",
-    "source": "City of SCS — City Calendar"
-  },
-  {
-    "id": "https://www.scsmi.net/Calendar.aspx?EID=13522/639034771270000000",
-    "title": "Senior Advisory Committee",
-    "link": "https://www.scsmi.net/Calendar.aspx?EID=13522",
-    "isoDate": "2026-01-08T19:52:07.000Z",
-    "snippet": "Event date: June 18, 2026 Event Time: 06:00 PM - 07:00 PM Location: 27600 Jefferson St. Clair Shores, MI 48081",
     "source": "City of SCS — City Calendar"
   }
 ]
