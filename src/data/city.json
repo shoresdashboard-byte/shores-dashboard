@@ -64,6 +64,14 @@
     "source": "City of SCS — City Calendar"
   },
   {
+    "id": "https://www.scsmi.net/Calendar.aspx?EID=13564/639244656350000000",
+    "title": "Election Commission Meeting- Public Accuracy Test",
+    "link": "https://www.scsmi.net/Calendar.aspx?EID=13564",
+    "isoDate": "2026-09-08T17:00:35.000Z",
+    "snippet": "Event date: October 12, 2026 Event Time: 10:30 AM - 12:00 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
+    "source": "City of SCS — City Calendar"
+  },
+  {
     "id": "https://www.scsmi.net/Calendar.aspx?EID=13419/639239352680000000",
     "title": "Building/Property Maintenance Board - Cancelled",
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13419",
@@ -789,14 +797,6 @@
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13436",
     "isoDate": "2026-03-18T15:29:06.000Z",
     "snippet": "Event date: May 20, 2026 Event Time: 06:30 PM - 07:30 PM Location: St. Clair Shores, MI 48081",
-    "source": "City of SCS — City Calendar"
-  },
-  {
-    "id": "https://www.scsmi.net/Calendar.aspx?EID=13237/639089250990000000",
-    "title": "Memorial Day Parade",
-    "link": "https://www.scsmi.net/Calendar.aspx?EID=13237",
-    "isoDate": "2026-03-12T20:11:39.000Z",
-    "snippet": "Event date: May 24, 2026 Event Time: 01:00 PM - 04:00 PM Location: St. Clair Shores, MI 48081",
     "source": "City of SCS — City Calendar"
   }
 ]
