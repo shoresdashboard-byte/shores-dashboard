@@ -80,6 +80,14 @@
     "source": "City of SCS — City Calendar"
   },
   {
+    "id": "https://www.scsmi.net/Calendar.aspx?EID=13510/639237884890000000",
+    "title": "Animal Care & Welfare Committee Meeting",
+    "link": "https://www.scsmi.net/Calendar.aspx?EID=13510",
+    "isoDate": "2026-08-31T20:54:49.000Z",
+    "snippet": "Event date: October 13, 2026 Event Time: 06:30 PM - 07:30 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
+    "source": "City of SCS — City Calendar"
+  },
+  {
     "id": "https://www.scsmi.net/Calendar.aspx?EID=13563/639237882300000000",
     "title": "Chamber Concert",
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13563",
@@ -789,14 +797,6 @@
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13437",
     "isoDate": "2026-03-18T15:29:31.000Z",
     "snippet": "Event date: June 3, 2026 Event Time: 06:30 PM - 07:30 PM Location: St. Clair Shores, MI 48081",
-    "source": "City of SCS — City Calendar"
-  },
-  {
-    "id": "https://www.scsmi.net/Calendar.aspx?EID=13436/639094265460000000",
-    "title": "Memorial Day Parade Committee Meeting",
-    "link": "https://www.scsmi.net/Calendar.aspx?EID=13436",
-    "isoDate": "2026-03-18T15:29:06.000Z",
-    "snippet": "Event date: May 20, 2026 Event Time: 06:30 PM - 07:30 PM Location: St. Clair Shores, MI 48081",
     "source": "City of SCS — City Calendar"
   }
 ]
