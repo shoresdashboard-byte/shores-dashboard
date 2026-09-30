@@ -1,5 +1,13 @@
 [
   {
+    "id": "https://www.scsmi.net/Calendar.aspx?EID=13575/639262865020000000",
+    "title": "Animal Ordinance Committee Meeting",
+    "link": "https://www.scsmi.net/Calendar.aspx?EID=13575",
+    "isoDate": "2026-09-29T18:48:22.000Z",
+    "snippet": "Event date: October 14, 2026 Event Time: 02:00 PM - 03:00 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
+    "source": "City of SCS — City Calendar"
+  },
+  {
     "id": "https://www.scsmi.net/Calendar.aspx?EID=13319/639256735140000000",
     "title": "Water Resources Development and Advisory Board Meeting",
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13319",
@@ -789,14 +797,6 @@
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13438",
     "isoDate": "2026-03-18T15:29:52.000Z",
     "snippet": "Event date: October 7, 2026 Event Time: 06:30 PM - 07:30 PM Location: St. Clair Shores, MI 48081",
-    "source": "City of SCS — City Calendar"
-  },
-  {
-    "id": "https://www.scsmi.net/Calendar.aspx?EID=13437/639094265710000000",
-    "title": "Memorial Day Parade Committee Meeting",
-    "link": "https://www.scsmi.net/Calendar.aspx?EID=13437",
-    "isoDate": "2026-03-18T15:29:31.000Z",
-    "snippet": "Event date: June 3, 2026 Event Time: 06:30 PM - 07:30 PM Location: St. Clair Shores, MI 48081",
     "source": "City of SCS — City Calendar"
   }
 ]
