@@ -1,5 +1,13 @@
 [
   {
+    "id": "https://www.scsmi.net/CivicAlerts.aspx?aid=994/639271326710000000",
+    "title": "City Council Tours Pump Station Rehabilitation",
+    "link": "https://www.scsmi.net/CivicAlerts.aspx?aid=994",
+    "isoDate": "2026-10-09T13:51:11.000Z",
+    "snippet": "Macomb County Public Works Commissioner Candice Miller gave the Mayor and City Council members a tour of the Bon Huer Pump Station on Thursday, October 8.",
+    "source": "City of SCS — City News"
+  },
+  {
     "id": "https://www.scsmi.net/Calendar.aspx?EID=13420/639269701960000000",
     "title": "Building/Property Maintenance Board",
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13420",
@@ -789,14 +797,6 @@
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13487",
     "isoDate": "2026-05-06T13:07:10.000Z",
     "snippet": "Event date: July 1, 2026 Event Time: 07:30 PM - 08:30 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
-    "source": "City of SCS — City Calendar"
-  },
-  {
-    "id": "https://www.scsmi.net/Calendar.aspx?EID=13486/639136516300000000",
-    "title": "Community Garden Committee Meeting",
-    "link": "https://www.scsmi.net/Calendar.aspx?EID=13486",
-    "isoDate": "2026-05-06T13:07:10.000Z",
-    "snippet": "Event date: June 3, 2026 Event Time: 07:30 PM - 08:30 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
     "source": "City of SCS — City Calendar"
   }
 ]
