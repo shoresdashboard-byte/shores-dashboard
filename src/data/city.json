@@ -40,6 +40,14 @@
     "source": "City of SCS — City Calendar"
   },
   {
+    "id": "https://www.scsmi.net/Calendar.aspx?EID=13201/639263540980000000",
+    "title": "Council Sub-Committee on Boards, Commissions & Committees Meeting - Canceled",
+    "link": "https://www.scsmi.net/Calendar.aspx?EID=13201",
+    "isoDate": "2026-09-30T13:34:58.000Z",
+    "snippet": "Event date: October 27, 2026 Event Time: 07:00 PM - 11:59 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
+    "source": "City of SCS — City Calendar"
+  },
+  {
     "id": "https://www.scsmi.net/Calendar.aspx?EID=13575/639262865020000000",
     "title": "Animal Ordinance Committee Meeting",
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13575",
@@ -789,14 +797,6 @@
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13490",
     "isoDate": "2026-05-06T13:07:10.000Z",
     "snippet": "Event date: October 7, 2026 Event Time: 07:30 PM - 08:30 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
-    "source": "City of SCS — City Calendar"
-  },
-  {
-    "id": "https://www.scsmi.net/Calendar.aspx?EID=13489/639136516300000000",
-    "title": "Community Garden Committee Meeting",
-    "link": "https://www.scsmi.net/Calendar.aspx?EID=13489",
-    "isoDate": "2026-05-06T13:07:10.000Z",
-    "snippet": "Event date: September 2, 2026 Event Time: 07:30 PM - 08:30 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
     "source": "City of SCS — City Calendar"
   }
 ]
