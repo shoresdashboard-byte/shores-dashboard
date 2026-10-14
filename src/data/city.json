@@ -1,5 +1,13 @@
 [
   {
+    "id": "https://www.scsmi.net/Calendar.aspx?EID=13343/639275714100000000",
+    "title": "Downtown Development Authority - Cancelled",
+    "link": "https://www.scsmi.net/Calendar.aspx?EID=13343",
+    "isoDate": "2026-10-14T15:43:30.000Z",
+    "snippet": "Event date: October 14, 2026 Event Time: 10:00 AM - 11:30 AM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
+    "source": "City of SCS — City Calendar"
+  },
+  {
     "id": "https://www.scsmi.net/Calendar.aspx?EID=13343/639274131470000000",
     "title": "Downtown Development Authority",
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13343",
@@ -789,14 +797,6 @@
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13362",
     "isoDate": "2026-05-06T14:09:52.000Z",
     "snippet": "Event date: May 12, 2026 Event Time: 07:00 PM - 10:00 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
-    "source": "City of SCS — City Calendar"
-  },
-  {
-    "id": "https://www.scsmi.net/Calendar.aspx?EID=13490/639136516300000000",
-    "title": "Community Garden Committee Meeting",
-    "link": "https://www.scsmi.net/Calendar.aspx?EID=13490",
-    "isoDate": "2026-05-06T13:07:10.000Z",
-    "snippet": "Event date: October 7, 2026 Event Time: 07:30 PM - 08:30 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
     "source": "City of SCS — City Calendar"
   }
 ]
