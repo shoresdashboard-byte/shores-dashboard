@@ -1,5 +1,13 @@
 [
   {
+    "id": "https://www.scsmi.net/Calendar.aspx?EID=13286/639276543480000000",
+    "title": "General Employee Health Care Trust",
+    "link": "https://www.scsmi.net/Calendar.aspx?EID=13286",
+    "isoDate": "2026-10-15T14:45:48.000Z",
+    "snippet": "Event date: October 20, 2026 Event Time: 03:00 PM - 03:30 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
+    "source": "City of SCS — City Calendar"
+  },
+  {
     "id": "https://www.scsmi.net/Calendar.aspx?EID=13343/639275714100000000",
     "title": "Downtown Development Authority - Cancelled",
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13343",
@@ -789,14 +797,6 @@
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13415",
     "isoDate": "2026-05-07T18:36:50.000Z",
     "snippet": "Event date: May 12, 2026 Event Time: 04:00 PM - 05:00 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
-    "source": "City of SCS — City Calendar"
-  },
-  {
-    "id": "https://www.scsmi.net/Calendar.aspx?EID=13362/639136553920000000",
-    "title": "Planning Commission - Cancelled",
-    "link": "https://www.scsmi.net/Calendar.aspx?EID=13362",
-    "isoDate": "2026-05-06T14:09:52.000Z",
-    "snippet": "Event date: May 12, 2026 Event Time: 07:00 PM - 10:00 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
     "source": "City of SCS — City Calendar"
   }
 ]
