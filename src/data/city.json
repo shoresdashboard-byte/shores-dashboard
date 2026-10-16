@@ -1,5 +1,13 @@
 [
   {
+    "id": "https://www.scsmi.net/Calendar.aspx?EID=13355/639277385230000000",
+    "title": "Sign Arbitration - CANCELLED",
+    "link": "https://www.scsmi.net/Calendar.aspx?EID=13355",
+    "isoDate": "2026-10-16T14:08:43.000Z",
+    "snippet": "Event date: October 22, 2026 Event Time: 09:00 AM - 10:00 AM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
+    "source": "City of SCS — City Calendar"
+  },
+  {
     "id": "https://www.scsmi.net/Calendar.aspx?EID=13286/639276543480000000",
     "title": "General Employee Health Care Trust",
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13286",
@@ -789,14 +797,6 @@
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13525",
     "isoDate": "2026-05-08T14:56:04.000Z",
     "snippet": "Event date: May 13, 2026 Event Time: 06:00 PM - 07:00 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
-    "source": "City of SCS — City Calendar"
-  },
-  {
-    "id": "https://www.scsmi.net/Calendar.aspx?EID=13415/639137578100000000",
-    "title": "Building/Property Maintenance Board - Cancelled",
-    "link": "https://www.scsmi.net/Calendar.aspx?EID=13415",
-    "isoDate": "2026-05-07T18:36:50.000Z",
-    "snippet": "Event date: May 12, 2026 Event Time: 04:00 PM - 05:00 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
     "source": "City of SCS — City Calendar"
   }
 ]
