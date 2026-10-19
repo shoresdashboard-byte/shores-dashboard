@@ -1,5 +1,13 @@
 [
   {
+    "id": "https://www.scsmi.net/Calendar.aspx?EID=13583/639280198390000000",
+    "title": "SCS Memorial Day Parade Committee Special Meeting",
+    "link": "https://www.scsmi.net/Calendar.aspx?EID=13583",
+    "isoDate": "2026-10-19T20:17:19.000Z",
+    "snippet": "Event date: October 20, 2026 Event Time: 06:00 PM - 11:59 PM Location: St. Clair Shores, MI 48081",
+    "source": "City of SCS — City Calendar"
+  },
+  {
     "id": "https://www.scsmi.net/Calendar.aspx?EID=13149/639280074770000000",
     "title": "General Employees Pension Board Meeting",
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13149",
@@ -789,14 +797,6 @@
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13315",
     "isoDate": "2026-05-18T20:20:22.000Z",
     "snippet": "Event date: June 2, 2026 Event Time: 07:00 PM - 09:00 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
-    "source": "City of SCS — City Calendar"
-  },
-  {
-    "id": "https://www.scsmi.net/Calendar.aspx?EID=13196/639141793370000000",
-    "title": "Canceled - Council Sub-Committee on Boards, Commissions & Committees Meeting",
-    "link": "https://www.scsmi.net/Calendar.aspx?EID=13196",
-    "isoDate": "2026-05-12T15:42:17.000Z",
-    "snippet": "Event date: May 26, 2026 Event Time: 07:00 PM - 11:59 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
     "source": "City of SCS — City Calendar"
   }
 ]
