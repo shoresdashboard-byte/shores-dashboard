@@ -1,5 +1,13 @@
 [
   {
+    "id": "https://www.scsmi.net/Calendar.aspx?EID=13332/639282601040000000",
+    "title": "Zoning Board of Appeals",
+    "link": "https://www.scsmi.net/Calendar.aspx?EID=13332",
+    "isoDate": "2026-10-22T15:01:44.000Z",
+    "snippet": "Event date: November 5, 2026 Event Time: 07:00 PM - 10:00 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
+    "source": "City of SCS — City Calendar"
+  },
+  {
     "id": "https://www.scsmi.net/Calendar.aspx?EID=13583/639280198390000000",
     "title": "SCS Memorial Day Parade Committee Special Meeting",
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13583",
@@ -789,14 +797,6 @@
     "link": "https://www.scsmi.net/Calendar.aspx?EID=12024",
     "isoDate": "2026-05-19T17:21:32.000Z",
     "snippet": "Event date: June 11, 2026 Event Time: 06:30 PM - 08:00 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
-    "source": "City of SCS — City Calendar"
-  },
-  {
-    "id": "https://www.scsmi.net/Calendar.aspx?EID=13315/639147144220000000",
-    "title": "Water Resources Development and Advisory Board Meeting",
-    "link": "https://www.scsmi.net/Calendar.aspx?EID=13315",
-    "isoDate": "2026-05-18T20:20:22.000Z",
-    "snippet": "Event date: June 2, 2026 Event Time: 07:00 PM - 09:00 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
     "source": "City of SCS — City Calendar"
   }
 ]
