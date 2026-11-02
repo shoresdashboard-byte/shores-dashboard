@@ -1,5 +1,13 @@
 [
   {
+    "id": "https://www.scsmi.net/Calendar.aspx?EID=13491/639292155940000000",
+    "title": "Community Garden Committee Meeting - Cancelled",
+    "link": "https://www.scsmi.net/Calendar.aspx?EID=13491",
+    "isoDate": "2026-11-02T17:26:34.000Z",
+    "snippet": "Event date: November 4, 2026 Event Time: 07:30 PM - 08:30 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
+    "source": "City of SCS — City Calendar"
+  },
+  {
     "id": "https://www.scsmi.net/Calendar.aspx?EID=13296/639286974970000000",
     "title": "Police and Fire Pension/Health Care Meeting",
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13296",
@@ -789,14 +797,6 @@
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13374",
     "isoDate": "2026-05-22T20:34:42.000Z",
     "snippet": "Event date: May 26, 2026 Event Time: 07:00 PM - 10:00 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
-    "source": "City of SCS — City Calendar"
-  },
-  {
-    "id": "https://www.scsmi.net/Calendar.aspx?EID=13350/639150422770000000",
-    "title": "Sign Arbitration",
-    "link": "https://www.scsmi.net/Calendar.aspx?EID=13350",
-    "isoDate": "2026-05-22T15:24:37.000Z",
-    "snippet": "Event date: May 28, 2026 Event Time: 09:00 AM - 10:00 AM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
     "source": "City of SCS — City Calendar"
   }
 ]
