@@ -1,5 +1,13 @@
 [
   {
+    "id": "https://www.scsmi.net/Calendar.aspx?EID=13590/639293777840000000",
+    "title": "Communications Comission Meeting",
+    "link": "https://www.scsmi.net/Calendar.aspx?EID=13590",
+    "isoDate": "2026-11-04T14:29:44.000Z",
+    "snippet": "Event date: November 9, 2026 Event Time: 04:00 PM - 05:00 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
+    "source": "City of SCS — City Calendar"
+  },
+  {
     "id": "https://www.scsmi.net/Calendar.aspx?EID=13368/639292997850000000",
     "title": "Planning Commission - Cancelled",
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13368",
@@ -789,14 +797,6 @@
     "link": "https://www.scsmi.net/CivicAlerts.aspx?aid=971",
     "isoDate": "2026-05-27T19:45:00.000Z",
     "snippet": "Due to renovations beginning Tuesday, September 2, the Library will be operating via curbside pickup.",
-    "source": "City of SCS — City News"
-  },
-  {
-    "id": "https://www.scsmi.net/CivicAlerts.aspx?aid=984/639153921660000000",
-    "title": "Jefferson Road Update",
-    "link": "https://www.scsmi.net/CivicAlerts.aspx?aid=984",
-    "isoDate": "2026-05-26T16:36:06.000Z",
-    "snippet": "",
     "source": "City of SCS — City News"
   }
 ]
