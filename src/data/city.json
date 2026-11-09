@@ -88,6 +88,14 @@
     "source": "City of SCS — City Calendar"
   },
   {
+    "id": "https://www.scsmi.net/Calendar.aspx?EID=13480/639276551810000000",
+    "title": "Beautification Commission Meeting",
+    "link": "https://www.scsmi.net/Calendar.aspx?EID=13480",
+    "isoDate": "2026-10-15T14:59:41.000Z",
+    "snippet": "Event date: November 23, 2026 Event Time: 06:00 PM - 07:00 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
+    "source": "City of SCS — City Calendar"
+  },
+  {
     "id": "https://www.scsmi.net/Calendar.aspx?EID=13286/639276543480000000",
     "title": "General Employee Health Care Trust",
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13286",
@@ -789,14 +797,6 @@
     "link": "https://www.scsmi.net/CivicAlerts.aspx?aid=981",
     "isoDate": "2026-05-27T19:51:00.000Z",
     "snippet": "",
-    "source": "City of SCS — City News"
-  },
-  {
-    "id": "https://www.scsmi.net/CivicAlerts.aspx?aid=971/639154899000000000",
-    "title": "Library Curbside Hours",
-    "link": "https://www.scsmi.net/CivicAlerts.aspx?aid=971",
-    "isoDate": "2026-05-27T19:45:00.000Z",
-    "snippet": "Due to renovations beginning Tuesday, September 2, the Library will be operating via curbside pickup.",
     "source": "City of SCS — City News"
   }
 ]
