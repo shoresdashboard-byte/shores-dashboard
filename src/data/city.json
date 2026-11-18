@@ -24,6 +24,14 @@
     "source": "City of SCS — City Calendar"
   },
   {
+    "id": "https://www.scsmi.net/m/calendar/event/detail/13439/639287143650000000",
+    "title": "Memorial Day Parade Committee Meeting- Canceled",
+    "link": "https://www.scsmi.net/m/calendar/event/detail/13439",
+    "isoDate": "2026-10-27T21:12:45.000Z",
+    "snippet": "Event date: December 2, 2026 Event Time: 06:30 PM - 07:30 PM Location: St. Clair Shores, MI 48081",
+    "source": "City of SCS — City Calendar"
+  },
+  {
     "id": "https://www.scsmi.net/Calendar.aspx?EID=13296/639286974970000000",
     "title": "Police and Fire Pension/Health Care Meeting",
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13296",
@@ -85,6 +93,14 @@
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13355",
     "isoDate": "2026-10-16T14:08:43.000Z",
     "snippet": "Event date: October 22, 2026 Event Time: 09:00 AM - 10:00 AM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
+    "source": "City of SCS — City Calendar"
+  },
+  {
+    "id": "https://www.scsmi.net/m/calendar/event/detail/13480/639276551810000000",
+    "title": "Beautification Commission Meeting",
+    "link": "https://www.scsmi.net/m/calendar/event/detail/13480",
+    "isoDate": "2026-10-15T14:59:41.000Z",
+    "snippet": "Event date: November 23, 2026 Event Time: 06:00 PM - 07:00 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
     "source": "City of SCS — City Calendar"
   },
   {
@@ -782,21 +798,5 @@
     "isoDate": "2026-06-01T15:46:57.000Z",
     "snippet": "Event date: June 8, 2026 Event Time: 06:00 PM - 10:00 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
     "source": "City of SCS — City Calendar"
-  },
-  {
-    "id": "https://www.scsmi.net/Calendar.aspx?EID=13437/639156668740000000",
-    "title": "Memorial Day Parade Committee Meeting",
-    "link": "https://www.scsmi.net/Calendar.aspx?EID=13437",
-    "isoDate": "2026-05-29T20:54:34.000Z",
-    "snippet": "Event date: June 4, 2026 Event Time: 06:30 PM - 07:30 PM Location: St. Clair Shores, MI 48081",
-    "source": "City of SCS — City Calendar"
-  },
-  {
-    "id": "https://www.scsmi.net/CivicAlerts.aspx?aid=981/639154902600000000",
-    "title": "Library Renovation Updates",
-    "link": "https://www.scsmi.net/CivicAlerts.aspx?aid=981",
-    "isoDate": "2026-05-27T19:51:00.000Z",
-    "snippet": "",
-    "source": "City of SCS — City News"
   }
 ]
