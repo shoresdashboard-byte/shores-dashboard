@@ -1,5 +1,21 @@
 [
   {
+    "id": "https://www.scsmi.net/m/calendar/event/detail/13380/639306757080000000",
+    "title": "Planning Commission - Cancelled",
+    "link": "https://www.scsmi.net/m/calendar/event/detail/13380",
+    "isoDate": "2026-11-19T15:01:48.000Z",
+    "snippet": "Event date: November 24, 2026 Event Time: 07:00 PM - 10:00 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
+    "source": "City of SCS — City Calendar"
+  },
+  {
+    "id": "https://www.scsmi.net/m/calendar/event/detail/13333/639306753120000000",
+    "title": "Zoning Board of Appeals",
+    "link": "https://www.scsmi.net/m/calendar/event/detail/13333",
+    "isoDate": "2026-11-19T14:55:12.000Z",
+    "snippet": "Event date: December 3, 2026 Event Time: 07:00 PM - 10:00 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
+    "source": "City of SCS — City Calendar"
+  },
+  {
     "id": "https://www.scsmi.net/Calendar.aspx?EID=13590/639293777840000000",
     "title": "Communications Comission Meeting",
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13590",
@@ -782,21 +798,5 @@
     "isoDate": "2026-06-04T12:45:00.000Z",
     "snippet": "EPA invites the public to attend community interviews on the status of the Ten Mile Drain Superfund Site. During the interviews, you will be able to ask questions and meet with EPA staff to learn about the site cleanup.",
     "source": "City of SCS — City News"
-  },
-  {
-    "id": "https://www.scsmi.net/CivicAlerts.aspx?aid=986/639160127790000000",
-    "title": "Express Waste Services as New Trash Collection Provider",
-    "link": "https://www.scsmi.net/CivicAlerts.aspx?aid=986",
-    "isoDate": "2026-06-02T20:59:39.000Z",
-    "snippet": "At its June 1, 2026 meeting, the St. Clair Shores City Council approved a new solid waste collection agreement with Express Waste Services, concluding a comprehensive review process that began in 2025.",
-    "source": "City of SCS — City News"
-  },
-  {
-    "id": "https://www.scsmi.net/Calendar.aspx?EID=13529/639159076170000000",
-    "title": "City Council Work Study Meeting",
-    "link": "https://www.scsmi.net/Calendar.aspx?EID=13529",
-    "isoDate": "2026-06-01T15:46:57.000Z",
-    "snippet": "Event date: June 8, 2026 Event Time: 06:00 PM - 10:00 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
-    "source": "City of SCS — City Calendar"
   }
 ]
