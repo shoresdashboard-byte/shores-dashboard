@@ -1,5 +1,53 @@
 [
   {
+    "id": "https://www.scsmi.net/m/calendar/event/detail/13282/639311889610000000",
+    "title": "Tree Lighting Ceremony",
+    "link": "https://www.scsmi.net/m/calendar/event/detail/13282",
+    "isoDate": "2026-11-25T13:36:01.000Z",
+    "snippet": "Event date: December 4, 2026 Event Time: 06:00 PM - 08:00 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
+    "source": "City of SCS — City Calendar"
+  },
+  {
+    "id": "https://www.scsmi.net/m/calendar/event/detail/13789/639311887560000000",
+    "title": "Tunnel of Lights!",
+    "link": "https://www.scsmi.net/m/calendar/event/detail/13789",
+    "isoDate": "2026-11-25T13:32:36.000Z",
+    "snippet": "Event date: December 5, 2026 Event Time: 05:00 PM - 09:00 PM Location: 24800 Jefferson Ave. St. Clair Shores, MI 48081",
+    "source": "City of SCS — City Calendar"
+  },
+  {
+    "id": "https://www.scsmi.net/m/calendar/event/detail/13790/639311887560000000",
+    "title": "Tunnel of Lights!",
+    "link": "https://www.scsmi.net/m/calendar/event/detail/13790",
+    "isoDate": "2026-11-25T13:32:36.000Z",
+    "snippet": "Event date: December 6, 2026 Event Time: 05:00 PM - 09:00 PM Location: 24800 Jefferson Ave. St. Clair Shores, MI 48081",
+    "source": "City of SCS — City Calendar"
+  },
+  {
+    "id": "https://www.scsmi.net/m/calendar/event/detail/13791/639311887560000000",
+    "title": "Tunnel of Lights!",
+    "link": "https://www.scsmi.net/m/calendar/event/detail/13791",
+    "isoDate": "2026-11-25T13:32:36.000Z",
+    "snippet": "Event date: December 7, 2026 Event Time: 05:00 PM - 09:00 PM Location: 24800 Jefferson Ave. St. Clair Shores, MI 48081",
+    "source": "City of SCS — City Calendar"
+  },
+  {
+    "id": "https://www.scsmi.net/m/calendar/event/detail/13792/639311887560000000",
+    "title": "Tunnel of Lights!",
+    "link": "https://www.scsmi.net/m/calendar/event/detail/13792",
+    "isoDate": "2026-11-25T13:32:36.000Z",
+    "snippet": "Event date: December 8, 2026 Event Time: 05:00 PM - 09:00 PM Location: 24800 Jefferson Ave. St. Clair Shores, MI 48081",
+    "source": "City of SCS — City Calendar"
+  },
+  {
+    "id": "https://www.scsmi.net/m/calendar/event/detail/13793/639311887560000000",
+    "title": "Tunnel of Lights!",
+    "link": "https://www.scsmi.net/m/calendar/event/detail/13793",
+    "isoDate": "2026-11-25T13:32:36.000Z",
+    "snippet": "Event date: December 9, 2026 Event Time: 05:00 PM - 09:00 PM Location: 24800 Jefferson Ave. St. Clair Shores, MI 48081",
+    "source": "City of SCS — City Calendar"
+  },
+  {
     "id": "https://www.scsmi.net/m/calendar/event/detail/13321/639306952720000000",
     "title": "Water Resources Development and Advisory Board Meeting - CANCELLED",
     "link": "https://www.scsmi.net/m/calendar/event/detail/13321",
@@ -750,53 +798,5 @@
     "isoDate": "2026-06-09T13:45:02.000Z",
     "snippet": "Event date: September 12, 2026 Event Time: 05:00 PM - 11:55 PM Location: St. Clair Shores, MI 48081",
     "source": "City of SCS — City Calendar"
-  },
-  {
-    "id": "https://www.scsmi.net/Calendar.aspx?EID=13532/639165915020000000",
-    "title": "Downtown Social District",
-    "link": "https://www.scsmi.net/Calendar.aspx?EID=13532",
-    "isoDate": "2026-06-09T13:45:02.000Z",
-    "snippet": "Event date: August 8, 2026 Event Time: 05:00 PM - 11:55 PM Location: St. Clair Shores, MI 48081",
-    "source": "City of SCS — City Calendar"
-  },
-  {
-    "id": "https://www.scsmi.net/Calendar.aspx?EID=13531/639165915020000000",
-    "title": "Downtown Social District",
-    "link": "https://www.scsmi.net/Calendar.aspx?EID=13531",
-    "isoDate": "2026-06-09T13:45:02.000Z",
-    "snippet": "Event date: July 11, 2026 Event Time: 05:00 PM - 11:55 PM Location: St. Clair Shores, MI 48081",
-    "source": "City of SCS — City Calendar"
-  },
-  {
-    "id": "https://www.scsmi.net/Calendar.aspx?EID=13530/639165915020000000",
-    "title": "Downtown Social District",
-    "link": "https://www.scsmi.net/Calendar.aspx?EID=13530",
-    "isoDate": "2026-06-09T13:45:02.000Z",
-    "snippet": "Event date: June 13, 2026 Event Time: 05:00 PM - 11:55 PM Location: St. Clair Shores, MI 48081",
-    "source": "City of SCS — City Calendar"
-  },
-  {
-    "id": "https://www.scsmi.net/Calendar.aspx?EID=13416/639162745810000000",
-    "title": "Building/Property Maintenance Board",
-    "link": "https://www.scsmi.net/Calendar.aspx?EID=13416",
-    "isoDate": "2026-06-05T21:43:01.000Z",
-    "snippet": "Event date: June 9, 2026 Event Time: 04:00 PM - 05:00 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
-    "source": "City of SCS — City Calendar"
-  },
-  {
-    "id": "https://www.scsmi.net/Calendar.aspx?EID=13363/639162517170000000",
-    "title": "Planning Commission - Cancelled",
-    "link": "https://www.scsmi.net/Calendar.aspx?EID=13363",
-    "isoDate": "2026-06-05T15:21:57.000Z",
-    "snippet": "Event date: June 9, 2026 Event Time: 07:00 PM - 10:00 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
-    "source": "City of SCS — City Calendar"
-  },
-  {
-    "id": "https://www.scsmi.net/CivicAlerts.aspx?aid=973/639161559000000000",
-    "title": "Throw a Block Party",
-    "link": "https://www.scsmi.net/CivicAlerts.aspx?aid=973",
-    "isoDate": "2026-06-04T12:45:00.000Z",
-    "snippet": "",
-    "source": "City of SCS — City News"
   }
 ]
