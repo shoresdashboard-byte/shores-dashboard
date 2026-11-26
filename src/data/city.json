@@ -48,6 +48,14 @@
     "source": "City of SCS — City Calendar"
   },
   {
+    "id": "https://www.scsmi.net/m/calendar/event/detail/13794/639311887560000000",
+    "title": "Tunnel of Lights!",
+    "link": "https://www.scsmi.net/m/calendar/event/detail/13794",
+    "isoDate": "2026-11-25T13:32:36.000Z",
+    "snippet": "Event date: December 10, 2026 Event Time: 05:00 PM - 09:00 PM Location: 24800 Jefferson Ave. St. Clair Shores, MI 48081",
+    "source": "City of SCS — City Calendar"
+  },
+  {
     "id": "https://www.scsmi.net/m/calendar/event/detail/13321/639306952720000000",
     "title": "Water Resources Development and Advisory Board Meeting - CANCELLED",
     "link": "https://www.scsmi.net/m/calendar/event/detail/13321",
@@ -789,14 +797,6 @@
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13534",
     "isoDate": "2026-06-09T13:45:02.000Z",
     "snippet": "Event date: October 10, 2026 Event Time: 05:00 PM - 11:55 PM Location: St. Clair Shores, MI 48081",
-    "source": "City of SCS — City Calendar"
-  },
-  {
-    "id": "https://www.scsmi.net/Calendar.aspx?EID=13533/639165915020000000",
-    "title": "Downtown Social District",
-    "link": "https://www.scsmi.net/Calendar.aspx?EID=13533",
-    "isoDate": "2026-06-09T13:45:02.000Z",
-    "snippet": "Event date: September 12, 2026 Event Time: 05:00 PM - 11:55 PM Location: St. Clair Shores, MI 48081",
     "source": "City of SCS — City Calendar"
   }
 ]
