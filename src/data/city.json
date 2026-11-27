@@ -64,6 +64,14 @@
     "source": "City of SCS — City Calendar"
   },
   {
+    "id": "https://www.scsmi.net/Calendar.aspx?EID=13795/639311887560000000",
+    "title": "Tunnel of Lights!",
+    "link": "https://www.scsmi.net/Calendar.aspx?EID=13795",
+    "isoDate": "2026-11-25T13:32:36.000Z",
+    "snippet": "Event date: December 11, 2026 Event Time: 05:00 PM - 09:00 PM Location: 24800 Jefferson Ave. St. Clair Shores, MI 48081",
+    "source": "City of SCS — City Calendar"
+  },
+  {
     "id": "https://www.scsmi.net/m/calendar/event/detail/13789/639311887560000000",
     "title": "Tunnel of Lights!",
     "link": "https://www.scsmi.net/m/calendar/event/detail/13789",
@@ -789,14 +797,6 @@
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13545",
     "isoDate": "2026-06-09T14:01:00.000Z",
     "snippet": "Event date: July 17, 2026 Event Time: 09:00 PM - 11:00 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
-    "source": "City of SCS — City Calendar"
-  },
-  {
-    "id": "https://www.scsmi.net/Calendar.aspx?EID=13544/639165921050000000",
-    "title": "Wine on the Water",
-    "link": "https://www.scsmi.net/Calendar.aspx?EID=13544",
-    "isoDate": "2026-06-09T13:55:05.000Z",
-    "snippet": "Event date: June 20, 2026 Event Time: 05:00 PM - 09:00 PM Location: 24800 Jefferson Ave. St. Clair Shores, MI 48081",
     "source": "City of SCS — City Calendar"
   }
 ]
