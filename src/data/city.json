@@ -72,6 +72,14 @@
     "source": "City of SCS — City Calendar"
   },
   {
+    "id": "https://www.scsmi.net/Calendar.aspx?EID=13796/639311887560000000",
+    "title": "Tunnel of Lights!",
+    "link": "https://www.scsmi.net/Calendar.aspx?EID=13796",
+    "isoDate": "2026-11-25T13:32:36.000Z",
+    "snippet": "Event date: December 12, 2026 Event Time: 05:00 PM - 09:00 PM Location: 24800 Jefferson Ave. St. Clair Shores, MI 48081",
+    "source": "City of SCS — City Calendar"
+  },
+  {
     "id": "https://www.scsmi.net/m/calendar/event/detail/13789/639311887560000000",
     "title": "Tunnel of Lights!",
     "link": "https://www.scsmi.net/m/calendar/event/detail/13789",
@@ -789,14 +797,6 @@
     "link": "https://www.scsmi.net/Calendar.aspx?EID=13546",
     "isoDate": "2026-06-09T14:06:46.000Z",
     "snippet": "Event date: June 22, 2026 Event Time: 06:00 PM - 07:00 PM Location: 32701 Harper St. Clair Shores, MI 48082",
-    "source": "City of SCS — City Calendar"
-  },
-  {
-    "id": "https://www.scsmi.net/Calendar.aspx?EID=13545/639165924600000000",
-    "title": "Dive-In Movie at the Pool!",
-    "link": "https://www.scsmi.net/Calendar.aspx?EID=13545",
-    "isoDate": "2026-06-09T14:01:00.000Z",
-    "snippet": "Event date: July 17, 2026 Event Time: 09:00 PM - 11:00 PM Location: 27600 Jefferson Ave. St. Clair Shores, MI 48081",
     "source": "City of SCS — City Calendar"
   }
 ]
